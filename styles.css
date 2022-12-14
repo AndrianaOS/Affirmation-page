@@ -1,0 +1,15 @@
+
+.mood-selector{
+    display: flex;
+        flex-direction: column;
+        border: 4px blueviolet;
+}
+
+.Happy{
+    border-color: rgb(211, 9, 43);
+}
+/* Is the css connected? I cannot see my updates */
+
+.DisplayBoard{
+    
+}
