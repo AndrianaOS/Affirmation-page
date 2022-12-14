@@ -18,21 +18,27 @@ input {
   display: none;
 }
 
-ul {
-  display: none;
+label {
+  position: absolute;
+  right: 1em;
 }
+
+/* ul {
+  display: none;
+} */
 
 #check:checked ~ .nav-items {
   display: block;
   list-style: none;
   background-color: aqua;
+  width: 8em;
 }
 
 .nav-items {
   padding: 1.5em 0.3em 0.3em 0.3em;
   text-align: center;
-  position: fixed;
-  right: 1em;
+  position: relative;
+  /* right: 1em; */
 }
 
 .nav-items li {
@@ -48,6 +54,9 @@ ul {
 /*FOOTER STYLES*/
 
 footer {
-  bottom: 1em;
-  position: fixed;
+  text-align: left;
+  border-radius: 6%;
+  padding: 1.2em;
+  margin-top: 0.9em;
+  margin: 1.5em;
 }
