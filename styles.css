@@ -1,0 +1,53 @@
+body {
+  min-width: auto;
+  margin: 1em;
+}
+
+.navbar {
+  margin: 1em 0.5em 1.5em 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+input {
+  display: none;
+}
+
+ul {
+  display: none;
+}
+
+#check:checked ~ .nav-items {
+  display: block;
+  list-style: none;
+  background-color: aqua;
+}
+
+.nav-items {
+  padding: 1.5em 0.3em 0.3em 0.3em;
+  text-align: center;
+  position: fixed;
+  right: 1em;
+}
+
+.nav-items li {
+  margin-bottom: 1em;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/*FOOTER STYLES*/
+
+footer {
+  bottom: 1em;
+  position: fixed;
+}
