@@ -11,13 +11,13 @@
   <body>
     <header>
       <nav class="navbar">
-        <div class="titlelogo">
+        <aside class="titlelogo">
             <span>Logo</span>
-            <span class="title">Daily Affirmations</span>
-        </div>
+            <h1 class="title">Daily Affirmations</h1>
+        </aside>
         <section class="nav-links">
             <input id="check" type="checkbox" />
-            <label for="check">
+            <label for="check" id="checkID">
                     <i class="fa-solid fa-bars"></i>
             </label>
             <ul class="nav-items">
@@ -29,10 +29,38 @@
             </li>
             </ul>
         </section>
+        <!-- <h4>Soulful Truths To Help Students Push through Studies!</h4> -->
       </nav>
     </header>
 
     <main>
+
+    <div class="moodBoard">
+      <h2> How Do You Feel Today...?</h2>
+    </div>
+
+     <section class="mood-selector">
+        <div class="mood">
+            <input type="checkbox" id="happy">
+            <label for="happy" class="spec-mood">HAPPY</label>
+            <aside class="quote">Always be happy and clappy</aside>
+        </div>
+      <div class="mood">
+        <input type="checkbox" id="demotivated">
+        <label for="demotivated" class="spec-mood">DEMOTIVATED</label>
+        <aside class="quote">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, fugit?</aside>
+      </div>
+      <div class="Impostor">I feel like an IMPOSTOR</div>
+      <div class="Inspired">I feel INSPIRED</div>
+      <div class="Sad">I feel SAD and unspired</div>
+      <div class="Motivated">I feel MOTIVATED</div>
+    </section>
+
+    <div class="DisplayBoard">
+     How do we display each message from our mood selector tabs here...?
+    </div>
+
+    
 
     </main>
 

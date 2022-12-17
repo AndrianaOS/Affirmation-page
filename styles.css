@@ -18,7 +18,7 @@ input {
   display: none;
 }
 
-label {
+#checkID {
   position: absolute;
   right: 1em;
 }
@@ -35,6 +35,7 @@ label {
 }
 
 .nav-items {
+  display: none;
   padding: 1.5em 0.3em 0.3em 0.3em;
   text-align: center;
   position: relative;
@@ -50,6 +51,39 @@ label {
   text-transform: uppercase;
   font-weight: bold;
 }
+
+/* MAIN STYLES */
+
+.quote {
+  display: none;
+  border: 2px pink solid;
+}
+
+#happy:checked ~ .quote {
+  display: block;
+}
+
+#demotivated:checked ~ .quote {
+  display: block;
+}
+
+.mood {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.spec-mood {
+  border: 2px orange solid;
+  width: 40px;
+  height: 21px;
+  border-radius: 50%;
+  padding: 2em;
+  text-align: center;
+  padding-top: 2.5em;
+  padding-left: 1.5em;
+}
+/* Is the css connected? I cannot see my updates */
 
 /*FOOTER STYLES*/
 

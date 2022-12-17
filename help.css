@@ -49,3 +49,10 @@ label {
 }
 
 /*FOOTER STYLES*/
+footer {
+  text-align: left;
+  border-radius: 6%;
+  padding: 1.2em;
+  margin-top: 0.9em;
+  margin: 1.5em;
+}
