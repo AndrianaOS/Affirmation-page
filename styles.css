@@ -1,12 +1,26 @@
 body {
   min-width: auto;
   margin: 1em;
+  color: #161b40;
+  background-color: #fbfaf9;
 }
 
 .navbar {
-  margin: 1em 0.5em 1.5em 1em;
+  margin: 1em 0.5em 1.5em 0.5em;
   display: flex;
   justify-content: space-between;
+}
+
+.titlelogo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  width: 16em;
+}
+
+span img {
+  height: 6em;
 }
 
 .icon {
@@ -20,7 +34,8 @@ input {
 
 #checkID {
   position: absolute;
-  right: 1em;
+  right: 2em;
+  top: 2.2em;
 }
 
 /* ul {
@@ -30,8 +45,8 @@ input {
 #check:checked ~ .nav-items {
   display: block;
   list-style: none;
-  background-color: aqua;
-  width: 8em;
+  background-color: #43bee5;
+  width: 19em;
 }
 
 .nav-items {
@@ -39,6 +54,7 @@ input {
   padding: 1.5em 0.3em 0.3em 0.3em;
   text-align: center;
   position: relative;
+  top: 4em;
   /* right: 1em; */
 }
 
@@ -54,7 +70,12 @@ input {
 
 /* MAIN STYLES */
 
-.quote {
+main {
+  position: relative;
+  top: 4.5em;
+}
+
+/* .quote {
   display: none;
   border: 2px pink solid;
 }
@@ -82,15 +103,53 @@ input {
   text-align: center;
   padding-top: 2.5em;
   padding-left: 1.5em;
-}
+} */
 /* Is the css connected? I cannot see my updates */
 
 /*FOOTER STYLES*/
 
 footer {
   text-align: left;
-  border-radius: 6%;
-  padding: 1.2em;
-  margin-top: 0.9em;
-  margin: 1.5em;
+  padding: 0.5em;
+  margin: 1em;
+}
+
+footer h2 {
+  text-align: center;
+}
+
+.name-icon {
+  padding: 0 0.5em;
+}
+
+.name-icon li {
+  list-style: none;
+  padding-top: 0.5em;
+}
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.contact-icon {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.fa-envelope {
+  padding-right: 0.3em;
+}
+
+#copyright {
+  text-align: center;
+}
+
+.fa-brands {
+  border: 2px solid #41b853;
+  border-radius: 50%;
+  padding: 0.3em;
+  /* color: pink; */
 }
