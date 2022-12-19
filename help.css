@@ -1,12 +1,26 @@
 body {
   min-width: auto;
   margin: 1em;
+  color: #161b40;
+  background-color: #fbfaf9;
 }
 
 .navbar {
-  margin: 1em 0.5em 1.5em 1em;
+  margin: 1em 0.5em 1.5em 0.5em;
   display: flex;
   justify-content: space-between;
+}
+
+.titlelogo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  width: 16em;
+}
+
+span img {
+  height: 6em;
 }
 
 .icon {
@@ -18,21 +32,32 @@ input {
   display: none;
 }
 
-ul {
-  display: none;
+#checkID {
+  position: absolute;
+  right: 2em;
+  top: 3.5em;
 }
+
+/* ul {
+  display: none;
+} */
 
 #check:checked ~ .nav-items {
   display: block;
   list-style: none;
-  background-color: aqua;
+  background-color: #43bee5;
+  width: 19em;
+  border-radius: 20px;
+  color: #161b40;
 }
 
 .nav-items {
+  display: none;
   padding: 1.5em 0.3em 0.3em 0.3em;
   text-align: center;
-  position: fixed;
-  right: 1em;
+  position: relative;
+  top: 4em;
+  /* right: 1em; */
 }
 
 .nav-items li {
@@ -48,6 +73,49 @@ ul {
 /*FOOTER STYLES*/
 
 footer {
-  bottom: 1em;
-  position: fixed;
+  text-align: left;
+  padding: 0.5em;
+  margin: 1em;
+  position: relative;
+  top: 10em;
+}
+
+footer h2 {
+  text-align: center;
+}
+
+.name-icon {
+  padding: 0 0.5em;
+}
+
+.name-icon li {
+  list-style: none;
+  padding-top: 0.5em;
+}
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.contact-icon {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.fa-envelope {
+  padding-right: 0.3em;
+}
+
+#copyright {
+  text-align: center;
+}
+
+.fa-brands {
+  border: 2px solid #41b853;
+  border-radius: 50%;
+  padding: 0.3em;
+  /* color: pink; */
 }
