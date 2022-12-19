@@ -4,13 +4,11 @@ body {
   color: #161b40;
   background-color: #fbfaf9;
 }
-
 .navbar {
   margin: 1em 0.5em 1.5em 0.5em;
   display: flex;
   justify-content: space-between;
 }
-
 .titlelogo {
   display: flex;
   justify-content: flex-start;
@@ -18,26 +16,27 @@ body {
   position: absolute;
   width: 16em;
 }
-
 span img {
   height: 6em;
 }
-
+.title {
+  margin-left: 0.5em;
+}
 .icon {
   display: flex;
   justify-content: flex-end;
 }
-
 input {
   display: none;
 }
-
 #checkID {
   position: absolute;
   right: 2em;
   top: 3.5em;
 }
-
+/* ul {
+  display: none;
+} */
 #check:checked ~ .nav-items {
   display: block;
   list-style: none;
@@ -46,7 +45,6 @@ input {
   border-radius: 20px;
   color: #161b40;
 }
-
 .nav-items {
   display: none;
   padding: 1.5em 0.3em 0.3em 0.3em;
@@ -55,15 +53,37 @@ input {
   top: 4em;
   /* right: 1em; */
 }
-
 .nav-items li {
   margin-bottom: 1em;
 }
-
 .nav-items li a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
+}
+/* MAIN STYLES */
+main {
+  position: relative;
+  top: 4.5em;
+}
+
+button {
+  background-color: #ff5700;
+  border-radius: 25px;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  background: yellow;
+  font-size: 0.5em;
+  cursor: pointer;
+}
+
+.forums {
+  background-color: rgb(99, 163, 237);
+  border-radius: 100px;
+}
+
+.tips {
+  background-color: #ffeee4;
 }
 
 /*FOOTER STYLES*/
@@ -74,6 +94,7 @@ footer {
   margin: 1em;
   position: relative;
   top: 10em;
+  top: 3em;
 }
 
 footer h2 {
@@ -101,67 +122,19 @@ footer h2 {
   align-items: center;
 }
 
+.contact-icon span {
+  display: flex;
+  align-items: center;
+}
+
 .fa-envelope {
   padding-right: 0.3em;
 }
-
 #copyright {
   text-align: center;
 }
-
 .fa-brands {
   border: 2px solid #41b853;
   border-radius: 50%;
   padding: 0.3em;
-  /* color: pink; */
-}
-
-/* body styling */
-
-body {
-  background-color: #ffeee4;
-}
-
-button {
-  background-color: #ff5700;
-  border-radius: 25px;
-  border: 1px solid #000;
-  padding: 10px 20px;
-  background: yellow;
-  font-size: 0.5em;
-  cursor: pointer;
-}
-
-.forums {
-  background-color: rgb(99, 163, 237);
-  border-radius: 100px;
-}
-
-.tips {
-  background-color: #ffeee4;
-}
-
-/* footer styling */
-.footer h2 {
-  text-align: center;
-}
-
-.social {
-  display: flex;
-  flex-direction: row;
-}
-.contact-icon {
-  display: flex;
-  flex-direction: row;
-  border-color: rgb(203, 11, 130) solid;
-  align-items: center;
-  margin-left: 60px;
-  gap: 20px;
-}
-.fa-regular fa-envelope {
-  width: 18px;
-  height: 18px;
-}
-#copyright {
-  text-align: center;
 }
