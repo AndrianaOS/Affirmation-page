@@ -37,64 +37,68 @@
     </header>
 
     <main>
-<button onclick="displayQuote3()"> SCARED.
-</button>
-<p id="quote3"></p>
-<button onclick="displayQuote2()"> UNINSPIRED! </button>
-<p id="quote2"></p>
-<button onclick="displayQuote()"> INSPIRED! </button>
-<p id="quote"></p>
-<script>
-    const quotes = [
-        "Being inspired is awesome. those moments when you feel all is just right with the world. great. now go forth and keep conquering…!",
-        "The difference between ordinary and extraordinary is that little bit …extra.",
-        "logic will get you from a-b. imagination will take you everywhere.",
-        "done is better than perfect.",
-        "your time is limited, so don’t waste it.",
-        "Believe you can and you're halfway there.",
-        "Only people who are crazy enough to think they can change the world, are the ones who usually do.",
-        "The only way to do great work is to love what you do.",
-        "If you want to live a happy life, tie it to a goal, not to people or things.",
-    ];
-    const quotes2 = [
-        "“Anyone who has never made a mistake has never tried anything new.”",
-        "“because old ways won’t open new doors.”",
-        "Just take it one day at a time.",
-        "“No one said it was gonna be easy. but it will get better with each day you keep trying.”",
-        "“Anyone who has never made a mistake has never tried anything new.”",
-
-    ]
-
-    const quotes3 = [
-        "It's okay to be scared. being scared means you are about to do something really, really brave",
-        "“to ask the right question is already half the solution to a problem.”",
-        "“always try to finish what you started.”",
-        "“a successful relationship requires falling in love multiple times but always with the same person- so find your reason to love and fall back in love with tech.”",
-        "“remember.…it’s not done until it ships..!!”"
-
-    ]
-    function displayQuote() {
-        const randomIndex = Math.floor(Math.random() * quotes.length);
-        document.getElementById("quote").innerHTML = quotes[randomIndex];
-    }
-    function displayQuote2() {
-        const randomIndex = Math.floor(Math.random() * quotes2.length);
-        document.getElementById("quote2").innerHTML = quotes2[randomIndex];
-    }
-    function displayQuote3() {
-        const randomIndex = Math.floor(Math.random() * quotes3.length);
-        document.getElementById("quote3").innerHTML = quotes3[randomIndex];
-    }
-
-</script>
-=======
       <h3>How Do You Feel Today...?</h3>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
-        provident delectus quaerat! Quos expedita corporis hic, nulla cupiditate
-        ex vel minus, sed eius aut distinctio, exercitationem quibusdam commodi
-        optio quasi?
-      </p>
+
+      <section class="emotion-buttons">
+        <button onclick="displayQuote3()" class="round-button" id="scared">
+          SCARED
+          <br /><i class="fa-regular fa-face-tired"></i>
+        </button>
+        <p id="quote3"></p>
+
+        <button onclick="displayQuote2()" class="round-button" id="uninspired">
+          UNINSPIRED!
+          <br /><i class="fa-regular fa-face-grimace"></i>
+        </button>
+        <p id="quote2"></p>
+
+        <button onclick="displayQuote()" class="round-button" id="inspired">
+          INSPIRED!
+          <br /><i class="fa-regular fa-face-grin-stars"></i>
+        </button>
+        <p id="quote"></p>
+      </section>
+
+      <script>
+        const quotes = [
+          "Being inspired is awesome. Those moments when you feel all is just right with the world. GREAT. Now go forth and keep conquering…!!!",
+          "The difference between ordinary and extraordinary is that little bit …extra.",
+          "Logic will get you from A - B. Imagination will take you everywhere.",
+          "Done is better than perfect.",
+          "Your time is limited, so do not waste it.",
+          "Believe you can and you are halfway there.",
+          "Only people who are crazy enough to think they can change the world, are the ones who usually do.",
+          "The only way to do great work is to love what you do.",
+          "If you want to live a happy life, tie it to a goal, not to people or things.",
+        ];
+        const quotes2 = [
+          "Anyone who has never made a mistake has never tried anything new.",
+          "Old ways will not open new doors.",
+          "Just take it one day at a time.",
+          "No one said it was gonna be easy, but it will get better with each day you keep trying.",
+          "Anyone who has never made a mistake has never tried anything new.",
+        ];
+
+        const quotes3 = [
+          "It's okay to be scared. Being scared means you are about to do something really, really brave",
+          "To ask the right question is already half the solution to a problem.",
+          "Always try to finish what you started.",
+          "A successful relationship requires falling in love multiple times but always with the same person- so find your reason to love and fall back in love with it.",
+          "Remember.…it is not done until it ships..!!”",
+        ];
+        function displayQuote() {
+          const randomIndex = Math.floor(Math.random() * quotes.length);
+          document.getElementById("quote").innerHTML = quotes[randomIndex];
+        }
+        function displayQuote2() {
+          const randomIndex = Math.floor(Math.random() * quotes2.length);
+          document.getElementById("quote2").innerHTML = quotes2[randomIndex];
+        }
+        function displayQuote3() {
+          const randomIndex = Math.floor(Math.random() * quotes3.length);
+          document.getElementById("quote3").innerHTML = quotes3[randomIndex];
+        }
+      </script>
     </main>
 
     <footer>

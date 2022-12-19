@@ -81,6 +81,46 @@ main {
   top: 4.5em;
 }
 
+.emotion-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emotion-buttons p {
+  border: 5px solid #43bee5;
+  border-radius: 20px;
+  padding: 0.2em;
+}
+
+.round-button {
+  border: 2px solid #f40058;
+  border-radius: 50%;
+  padding: 1.5em;
+  height: 7.5em;
+  background-color: #f40058;
+  color: #161b40;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.fa-regular {
+  font-size: 1.8em;
+}
+
+#uninspired {
+  padding: 0.4em;
+  background-color: #efa500;
+  border: 2px solid #efa500;
+}
+
+#inspired {
+  padding: 1.1em;
+  background-color: #41b853;
+  border: 2px solid #41b853;
+}
+
 /* .quote {
   display: none;
   border: 2px pink solid;
@@ -119,7 +159,7 @@ footer {
   padding: 0.5em;
   margin: 1em;
   position: relative;
-  top: 10em;
+  top: 3em;
 }
 
 footer h2 {
@@ -144,6 +184,11 @@ footer h2 {
 .contact-icon {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+}
+
+.contact-icon span {
+  display: flex;
   align-items: center;
 }
 
