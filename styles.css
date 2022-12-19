@@ -23,6 +23,10 @@ span img {
   height: 6em;
 }
 
+.title {
+  margin-left: 0.5em;
+}
+
 .icon {
   display: flex;
   justify-content: flex-end;
@@ -35,7 +39,7 @@ input {
 #checkID {
   position: absolute;
   right: 2em;
-  top: 2.2em;
+  top: 3.5em;
 }
 
 /* ul {
@@ -47,6 +51,8 @@ input {
   list-style: none;
   background-color: #43bee5;
   width: 19em;
+  border-radius: 20px;
+  color: #161b40;
 }
 
 .nav-items {
@@ -112,6 +118,8 @@ footer {
   text-align: left;
   padding: 0.5em;
   margin: 1em;
+  position: relative;
+  top: 10em;
 }
 
 footer h2 {
