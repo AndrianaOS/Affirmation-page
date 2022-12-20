@@ -5,6 +5,7 @@
 header {
     display: flex;
     flex-direction: row;
+    margin-top: 30px;
 }
 
 .titlelogo {}
@@ -28,20 +29,8 @@ header {
 body {
     background-color: #FFEEE4;
 }
-
-button {
-    background-color: #FF5700;
-    border-radius: 25px;
-    border: 1px solid #000;
-    padding: 10px 20px;
-    background: yellow;
-    font-size: .5em;
-    cursor: pointer;
-}
-
-.forums {
-    background-color: rgb(99, 163, 237);
-    border-radius: 100px;
+h2{
+    text-align: center;
 }
 
 .tips {
@@ -75,4 +64,58 @@ button {
 
 #copyright {
     text-align: center;
+}
+
+/* styling dropdown and hoover button style */
+
+.dropbtn {
+    background-color: #0ccf87;
+    color: rgb(17, 17, 17);
+    padding: 16px;
+    font-size: 16px;
+    border: black solid 3px;
+    height: 130px;
+    width: 130px;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 80px;
+    margin-bottom: 60px;
+    
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ed8a47;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #ed31f3;
 }
