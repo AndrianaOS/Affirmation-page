@@ -57,6 +57,18 @@
           <br /><i class="fa-regular fa-face-grin-stars"></i>
         </button>
         <p id="quote"></p>
+
+        <button onclick="displayQuote5()" class="round-button" id="happy">
+          HAPPY
+          <br /><i class="fa-regular fa-face-laugh-beam"></i>
+        </button>
+        <p id="quote5"></p>
+
+        <button onclick="displayQuote4()" class="round-button" id="sad">
+          SAD
+          <br /><i class="fa-regular fa-face-frown"></i>
+        </button>
+        <p id="quote4"></p>
       </section>
 
       <script>
@@ -71,6 +83,7 @@
           "The only way to do great work is to love what you do.",
           "If you want to live a happy life, tie it to a goal, not to people or things.",
         ];
+
         const quotes2 = [
           "Anyone who has never made a mistake has never tried anything new.",
           "Old ways will not open new doors.",
@@ -78,36 +91,67 @@
           "No one said it was gonna be easy, but it will get better with each day you keep trying.",
           "Anyone who has never made a mistake has never tried anything new.",
         ];
+
         const quotes3 = [
           "It's okay to be scared. Being scared means you are about to do something really, really brave",
           "To ask the right question is already half the solution to a problem.",
           "Always try to finish what you started.",
           "A successful relationship requires falling in love multiple times but always with the same person- so find your reason to love and fall back in love with it.",
-          "Remember.…it is not done until it ships..!!”",
+          "Remember.…it is not done until it ships..!!",
         ];
+
+        const quotes4 = [
+          "I do not have to be productive to see value in myself.",
+          "Everything will work out perfect for me, and I will watch it unfold.",
+          "I have made it this far, and I will not stop now.",
+          "I am resilient in the face of any challenge.",
+          "I am strong and can overcome any obstacle in my life.",
+        ];
+
+        const quotes5 = [
+          "I create my happiness by accepting every part of myself.",
+          "Following my joy reveals the path to my best life.",
+          "I have the power to shape my ideal reality.",
+          "I am worthy of feeling happy.",
+          "I am in charge of my energy, and I am the only one who chooses how I feel.",
+        ];
+
         function displayQuote() {
           const randomIndex = Math.floor(Math.random() * quotes.length);
           document.getElementById("quote").innerHTML = quotes[randomIndex];
           document.getElementById("quote").classList.add("show");
         }
+
         function displayQuote2() {
           const randomIndex = Math.floor(Math.random() * quotes2.length);
           document.getElementById("quote2").innerHTML = quotes2[randomIndex];
           document.getElementById("quote2").classList.add("show");
         }
+
         function displayQuote3() {
           const randomIndex = Math.floor(Math.random() * quotes3.length);
           document.getElementById("quote3").innerHTML = quotes3[randomIndex];
           document.getElementById("quote3").classList.add("show");
         }
-      </script>
 
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eos,
-        incidunt nobis fuga odit impedit consectetur harum, at necessitatibus
-        dolorem labore alias est pariatur et, iusto ipsa architecto
-        reprehenderit aspernatur.
-      </p>
+        function displayQuote4() {
+          const randomIndex = Math.floor(Math.random() * quotes4.length);
+          document.getElementById("quote4").innerHTML = quotes4[randomIndex];
+          document.getElementById("quote4").classList.add("show");
+        }
+
+        function displayQuote4() {
+          const randomIndex = Math.floor(Math.random() * quotes4.length);
+          document.getElementById("quote4").innerHTML = quotes4[randomIndex];
+          document.getElementById("quote4").classList.add("show");
+        }
+
+        function displayQuote5() {
+          const randomIndex = Math.floor(Math.random() * quotes5.length);
+          document.getElementById("quote5").innerHTML = quotes5[randomIndex];
+          document.getElementById("quote5").classList.add("show");
+        }
+      </script>
     </main>
 
     <footer>

@@ -109,7 +109,9 @@ main h3 {
 
 .fa-face-tired,
 .fa-face-grimace,
-.fa-face-grin-stars {
+.fa-face-grin-stars,
+.fa-face-laugh-beam,
+.fa-face-frown {
   font-size: 1.8em;
 }
 
@@ -123,6 +125,16 @@ main h3 {
   padding: 1.1em;
   background-color: #41b853;
   border: 2px solid #41b853;
+}
+
+#happy {
+  padding: 1.8em;
+  background-color: #43bee5;
+  border: #43bee5 2px solid;
+}
+
+#sad {
+  padding: 2.5em;
 }
 
 /*FOOTER STYLES*/
