@@ -16,7 +16,7 @@
     <header>
       <nav class="navbar">
         <aside class="titlelogo">
-          <span><img src="Affirmations logo.png" alt="" /></span>
+          <span><img src="Soulful.png" alt="" /></span>
           <h1 class="title">Soulful Truths</h1>
         </aside>
         <section class="nav-links">
@@ -88,16 +88,26 @@
         function displayQuote() {
           const randomIndex = Math.floor(Math.random() * quotes.length);
           document.getElementById("quote").innerHTML = quotes[randomIndex];
+          document.getElementById("quote").classList.add("show");
         }
         function displayQuote2() {
           const randomIndex = Math.floor(Math.random() * quotes2.length);
           document.getElementById("quote2").innerHTML = quotes2[randomIndex];
+          document.getElementById("quote2").classList.add("show");
         }
         function displayQuote3() {
           const randomIndex = Math.floor(Math.random() * quotes3.length);
           document.getElementById("quote3").innerHTML = quotes3[randomIndex];
+          document.getElementById("quote3").classList.add("show");
         }
       </script>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eos,
+        incidunt nobis fuga odit impedit consectetur harum, at necessitatibus
+        dolorem labore alias est pariatur et, iusto ipsa architecto
+        reprehenderit aspernatur.
+      </p>
     </main>
 
     <footer>

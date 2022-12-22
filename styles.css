@@ -51,7 +51,6 @@ input {
   text-align: center;
   position: relative;
   top: 4em;
-  /* right: 1em; */
 }
 .nav-items li {
   margin-bottom: 1em;
@@ -61,10 +60,20 @@ input {
   text-transform: uppercase;
   font-weight: bold;
 }
+
+.nav-items li a:hover {
+  font-size: 2em;
+  font-weight: bold;
+}
+
 /* MAIN STYLES */
 main {
   position: relative;
   top: 4.5em;
+}
+
+main h3 {
+  text-align: center;
 }
 
 .emotion-buttons {
@@ -78,6 +87,12 @@ main {
   border: 5px solid #43bee5;
   border-radius: 20px;
   padding: 0.2em;
+  display: none;
+  margin-top: 0;
+}
+
+.emotion-buttons p.show {
+  display: block;
 }
 
 .round-button {
@@ -89,6 +104,7 @@ main {
   color: #161b40;
   font-weight: bold;
   font-size: 1em;
+  margin-bottom: 1em;
 }
 
 .fa-face-tired,
