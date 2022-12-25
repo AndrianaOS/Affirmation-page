@@ -12,13 +12,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/help.css" />
-    <script src="https://kit.fontawesome.com/d81457d759.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://kit.fontawesome.com/d81457d759.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Help page</title>
  
       <div class="titlelogo">
-        <span>Logo</span>
+        <span> <img src="/Affirmations-logo.png" alt="logo image"></span>
         <br>
-        <span class="title">Soulful Truths</span>
+        <span class="title"><h5>SOULFUL TRUTHS</h5></span>
       </div>
       <nav class="navbar">
         <i class="fa-solid fa-bars"></i>
@@ -39,46 +40,36 @@
 
     <main>
 
-      <p>Need help with a coding project or have a question about a specific language or concept? Check out these forums
-        and communities:</p> <br> <h2>Need Help?</h2>
-        <div class="dropdown">
-      <p><button class="dropbtn"><h3>CLICK HERE</h3>
-        </button> <br> <p>To access some helpful Coding Forums and Programming Resources</p>
-      <div class="dropdown-content">
-        
+      <p>Need help with a coding project or have a question about programming...?
+
+        <div class="help-forum">
+      <button class="accordion"><h3><strong>CLICK HERE</strong></h3><p>to access some helpful resources.</p>
+        </button> 
+      <div class="panel">
+
+        <p>
           <a href="https://stackoverflow.com/">Stack Overflow</a> <br>
-          <a href="https://www.w3schools.com/php/php_ref_mysqli.asp">W3Schools PHP Forum</a> <br>
-          <a href="https://www.reddit.com/r/learnprogramming/">/r/learnprogramming on Reddit</a> <br>
-          <a href="https://www.codecademy.com/forum">Codecademy Forum</a> <br>
-          <a href="https://www.udacity.com/community">Udacity Community</a>
-        
+        <a href="https://www.w3schools.com/php/php_ref_mysqli.asp">W3Schools PHP Forum</a> <br>
+        <a href="https://www.reddit.com/r/learnprogramming/">/r/learnprogramming on Reddit</a> <br>
+        <a href="https://www.codecademy.com/forum">Codecademy Forum</a> <br>
+        <a href="https://www.udacity.com/community">Udacity Community</a>
+      </p>
       </div>
       </div>
 
-<!-- <div class="dropdown">
-  <button class="dropbtn">Dropdown</button>
-  <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-  </div>
-</div> -->
-
-
-
-      <p>Remember to always be respectful and follow the forum rules and guidelines when posting or asking for help.</p>
+      <p style="font-style: italic;">[Remember: Always be respectful and follow rules and guidelines when posting or asking for help.]</p>
 
       <section class="tips">
-        <h1>Focus and Stress Relief Tips for Students</h1>
+        <p>Click the buttons below to find some very helpful</p><h3>TIPS for FOCUS and STRESS RELIEF for Students..!</h3>
 
-        <button onclick="myFunction()">
-          <h2>Focus Tips</h2>
-        </button>
-        <div id="tipsnideas">
-          <ul>
-            <li><strong>HAVE A DEDICATED WORK SPACE</strong> - Creating a designated workspace free from distractions will
-              help you maintain a higher level of concentration when you study. Avoid things and places that bring
-              distraction to your study time, eg; Tv, noisy crowd and Starbucks if neccesary</li>
+
+        <button class="accordion"><strong>FOCUS TIPS</strong></button>
+        <div class="panel"> </div>
+        <p>
+         <ul>
+          <li><strong>HAVE A DEDICATED WORK SPACE</strong> - Creating a designated workspace free from distractions will
+            help you maintain a higher level of concentration when you study. Avoid things and places that bring
+            distraction to your study time, eg; Tv, noisy crowd and Starbucks if neccesary</li>
             <li><strong>CREATE SMALLER TASKS</strong>- Break large tasks into smaller, manageable ones, that way; your
               workload will be less daunting and easier to handle.</li>
             <li><strong>BE GOAL ORIENTED</strong> - Setting specific goals and deadlines for each task will help you stay
@@ -90,58 +81,73 @@
               set an alarm or a time limit and don't be tempted to exceed it.</li>
             <li><strong>TAKE A BREAK</strong> - Taking regular breaks will help you rest your mind and prevent burnout.
             </li>
-          </ul>
+        </ul>
+        </p>
         </div>
 
 
-        <button>
-          <div class="Stress-relief-tips">
-            <h2>Stress Relief Tips</h2>
-          </div>
-        </button>
-        <ul>
-          <li><strong>EXERCISE</strong> - regular exercises can help you release endorphins and in turn, reduce stress
-            which can be a big impact on your studies.</li>
-          <li><strong>MEDITATION</strong>- Practice deep breathing, meditation or other form of relaxation techniques.
-            These can help you to re-focus and re-align your mind towards your studies.</li>
-          <li><strong>NUTRITION</strong> - When the going gets tough, maintaining a good diet can become quite hard and
-            eating a healthy and balanced diet can be moved to the bottom of the priority list. But eating right and well
-            could be the key to improving your studies too.</li>
-          <li><strong>SLEEP</strong> - Sleeping is often underrated and hardly taled about as one of the main reasons
-            students get stressed. Get enough sleep every night, to recharge your body and mind. It will do wonders for
-            your physical and mental health!</li>
-          <li><strong>TALK</strong> - Connect with others and talk about your feelings or any concerns you may have. You
-            tutors and fellow trainees/students are there for you. Some might even be going through the same things...you
-            just never know!</li>
-        </ul>
+        <button class="accordion"><strong>STRESS RELIEF TIPS</strong></button>
+        <div class="panel">
+          <p>
+            <ul>
+            <li><strong>EXERCISE</strong> - regular exercises can help you release endorphins and in turn, reduce stress
+              which can be a big impact on your studies.</li>
+            <li><strong>MEDITATION</strong>- Practice deep breathing, meditation or other form of relaxation techniques.
+              These can help you to re-focus and re-align your mind towards your studies.</li>
+            <li><strong>NUTRITION</strong> - When the going gets tough, maintaining a good diet can become quite hard and
+              eating a healthy and balanced diet can be moved to the bottom of the priority list. But eating right and well
+              could be the key to improving your studies too.</li>
+            <li><strong>SLEEP</strong> - Sleeping is often underrated and hardly taled about as one of the main reasons
+              students get stressed. Get enough sleep every night, to recharge your body and mind. It will do wonders for
+              your physical and mental health!</li>
+            <li><strong>TALK</strong> - Connect with others and talk about your feelings or any concerns you may have. You
+              tutors and fellow trainees/students are there for you. Some might even be going through the same things...you
+              just never know!
+            </li>
+          </ul>
+        </p>
+        </div>
       </section>
     </main>
 
 
     <footer class="footer">
-      <h2>Contact</h2>
+      <h2>Contact us:</h2>
 
       <aside class="contact-icon">
-        <span><i class="fa-regular fa-envelope"></i>Mail</span>
+        <i class="fa
+        fa-envelope"style="font-size:28px"></i>
         <p>info@STaffirmations.com</p>
-      </aside>
+      </aside> <br>
 
       <section class="social">
-        <ul class="name-icon">
-          <li><i class="fa-brands fa-instagram"></i></li>
-          <li><a href="instagram.com">Instagram</a></li>
-        </ul>
-        <ul class="name-icon">
-          <li><i class="fa-brands fa-facebook-f"></i></li>
-          <li><a href="facebook.com">Facebook</a></li>
-        </ul>
-        <ul class="name-icon">
-          <li><i class="fa-brands fa-twitter"></i></li>
-          <li><a href="">Twitter</a></li>
-        </ul>
-      </section>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        </section>
+        <br>
+    
       </p>
-      <p id="copyright">&copy;STAffirmations: Class9!</p>
+      <p id="copyright">&copy;STaffirmations: Class9!</p>
     </footer>
+
+
+
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+    </script>
     </body>
   </html>
