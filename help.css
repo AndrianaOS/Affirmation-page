@@ -61,6 +61,12 @@ input {
   text-transform: uppercase;
   font-weight: bold;
 }
+
+.nav-items li a:hover {
+  font-size: 2em;
+  font-weight: bold;
+}
+
 /* MAIN STYLES */
 main {
   position: relative;
