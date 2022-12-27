@@ -34,9 +34,7 @@ input {
   right: 2em;
   top: 3.5em;
 }
-/* ul {
-  display: none;
-} */
+
 #check:checked ~ .nav-items {
   display: block;
   list-style: none;
@@ -51,7 +49,6 @@ input {
   text-align: center;
   position: relative;
   top: 4em;
-  /* right: 1em; */
 }
 .nav-items li {
   margin-bottom: 1em;
