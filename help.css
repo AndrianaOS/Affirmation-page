@@ -71,6 +71,69 @@ input {
   font-weight: bold;
 }
 
+@media screen and (min-width: 900px) {
+  header {
+    display: flex;
+  }
+
+  .title {
+    font-size: 2em;
+    margin: 0.5em 0.5em 0.5em 0.7em;
+  }
+
+  .titlelogo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 25em;
+    position: inherit;
+  }
+
+  .titlelogo span img {
+    height: 10em;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 54em;
+  }
+
+  .nav-links {
+    display: flex;
+    height: 7em;
+    align-self: center;
+  }
+
+  .nav-items {
+    display: flex;
+    margin: 0.5em;
+    align-items: center;
+    position: inherit;
+    justify-content: flex-end;
+  }
+
+  input,
+  label {
+    display: none;
+  }
+
+  .nav-items li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #161b40;
+    font-size: 1.3em;
+    padding: 0.5em;
+  }
+
+  .nav-items li {
+    list-style: none;
+    margin-right: 0.5em;
+  }
+}
+
 /* MAIN STYLES */
 main {
   position: relative;
