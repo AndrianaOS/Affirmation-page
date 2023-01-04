@@ -100,13 +100,18 @@ main h3 {
 .emotion-buttons p {
   border: 5px solid #43bee5;
   border-radius: 20px;
-  padding: 0.2em;
+  padding: 1.2em;
   display: none;
   margin-top: 0;
+  height: 7em;
+  text-align: center;
+  width: 12em;
 }
 
 .emotion-buttons p.show {
   display: block;
+  display: flex;
+  align-items: center;
 }
 
 .round-button {
