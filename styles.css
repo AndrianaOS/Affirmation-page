@@ -126,12 +126,9 @@ main h3 {
   margin-bottom: 1em;
 }
 
-.fa-face-tired,
-.fa-face-grimace,
-.fa-face-grin-stars,
-.fa-face-laugh-beam,
-.fa-face-frown {
-  font-size: 1.8em;
+.emoji {
+  display: block;
+  font-size: 2em;
 }
 
 #uninspired {
