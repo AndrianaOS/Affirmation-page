@@ -1,101 +1,249 @@
-<!-- <!DOCTYPE html>
-
-    <div class="mood-selector">
-      <div class="Happy">I feel HAPPY</div>
-      
-      <div class="DeMotivated">I feel DE-MOTIVATED</div>
-      <div class="Impostor">I feel like an IMPOSTOR</div>
-      <div class="Inspired">I feel INSPIRED</div>
-      <div class="Sad">I feel SAD and unspired</div>
-      <div class="Motivated">I feel MOTIVATED</div>
-    </div>
-
-  -->
-
-
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="/styles.css" />
-  <script src="https://kit.fontawesome.com/d81457d759.js" crossorigin="anonymous"></script>
-  <title>Help page</title>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/d81457d759.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Kalam&family=Kaushan+Script&family=Lobster+Two&family=Oleo+Script&family=Permanent+Marker&family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Affirmation Page</title>
   </head>
-  
+
   <body>
     <header>
-      <div class="titlelogo">
-        <span>Logo</span>
-        <span class="title">Soulful Truths</span>
-      </div>
       <nav class="navbar">
-              <i class="fa-solid fa-bars"></i>
-              </nav>
-            </header>
-
-              <section class="nav-links">
-            <ul class="nav-items">
-              <a href="index.html"><h1>HOME</h1></a>
-               <a href="help.html"><h1>HELP PAGE</h1></a>
-               </ul>
-            </section>
-         
-  
-      <main>
-        
-        <p>Need help with a coding project or have a question about a specific language or concept? Check out these forums and communities:</p>
-
-        <h2><button class="forums"><h2>CLICK HERE</h2></button> to access some helpful Coding Forums and Programming Resources</h2>
-        <div id="helpsites">
-        <ul>
-          <li><a href="https://stackoverflow.com/">Stack Overflow</a></li>
-          <li><a href="https://www.w3schools.com/php/php_ref_mysqli.asp">W3Schools PHP Forum</a></li>
-          <li><a href="https://www.reddit.com/r/learnprogramming/">/r/learnprogramming on Reddit</a></li>
-          <li><a href="https://www.codecademy.com/forum">Codecademy Forum</a></li>
-          <li><a href="https://www.udacity.com/community">Udacity Community</a></li>
-        </ul>
-        </div>
-
-        <p>Remember to always be respectful and follow the forum rules and guidelines when posting or asking for help.</p>
-      
-        <section class="tips">
-        <h1>Focus and Stress Relief Tips for Students</h1>
-
-        <button onclick="myFunction()"><h2>Focus Tips</h2>
-        </button>
-        <div id="tipsnideas">
-        <ul>
-          <li><strong>HAVE A DEDICATED WORK SPACE</strong> - Creating a designated workspace free from distractions will help you maintain a higher level of concentration when you study. Avoid things and places that bring distraction to your study time, eg; Tv, noisy crowd and Starbucks if neccesary</li>
-          <li><strong>CREATE SMALLER TASKS</strong>- Break large tasks into smaller, manageable ones, that way; your workload will be less daunting and easier to handle.</li>
-          <li><strong>BE GOAL ORIENTED</strong> - Setting specific goals and deadlines for each task will help you stay on track to finishing your work faster. This trick allows you to set your eyes on an achievable goal and once that goal is achieved, you feel accomplished and will likely to forward to achieving more.</li>
-          <li><strong>BAN SOCIAL MEDIA</strong> - during study times - Eliminating or limiting the use of social media, as well as turning off your phone notifications during study times, can increase your productivity by a whooping 85%.<href>https://www.socialworktoday.com/news/enews_0518_2.</href> If you must use social media, set an alarm or a time limit and don't be tempted to exceed it.</li>
-          <li><strong>TAKE A BREAK</strong> - Taking regular breaks will help you rest your mind and prevent burnout.</li>
-        </ul>
-        </div>
-      
-
-        <button><div class="Stress-relief-tips">
-        <h2>Stress Relief Tips</h2>
-        </div></button>
-        <ul>
-          <li><strong>EXERCISE</strong> - regular  exercises can help you release endorphins and in turn, reduce stress which can be a big impact on your studies.</li>
-          <li><strong>MEDITATION</strong>- Practice deep breathing, meditation or other form of relaxation techniques. These can help you to re-focus and re-align your mind towards your studies.</li>
-          <li><strong>NUTRITION</strong> - When the going gets tough, maintaining a good diet can become quite hard and eating a healthy and balanced diet can be moved to the bottom of the priority list. But eating right and well could be the key to improving your studies too.</li>
-          <li><strong>SLEEP</strong> - Sleeping is often underrated and hardly taled about as one of the main reasons students get stressed. Get enough sleep every night, to recharge your body and mind. It will do wonders for your physical and mental health!</li>
-          <li><strong>TALK</strong> - Connect with others and talk about your feelings or any concerns you may have. You tutors and fellow trainees/students are there for you. Some might even be going through the same things...you just never know!</li>
-        </ul>
-        </section>
-      </main>
-  
-      
-      <footer class="footer">
-        <h2>Contact</h2>
-  
-        <aside class="contact-icon">
-          <span><i class="fa-regular fa-envelope"></i>Mail</span> <p>info@STaffirmations.com</p>
+        <aside class="titlelogo">
+          <span><img src="Soulful.png" alt="" /></span>
+          <h1 class="title">Soulful Truths</h1>
         </aside>
-  
+        <section class="nav-links">
+          <input id="check" type="checkbox" />
+          <label for="check" id="checkID">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+          <ul class="nav-items">
+            <li>
+              <a href="index.html">HOME</a>
+            </li>
+            <li>
+              <a href="help.html">HELP PAGE</a>
+            </li>
+            <li>
+              <a href="about.html">ABOUT US</a>
+            </li>
+          </ul>
+        </section>
+      </nav>
+    </header>
+
+    <main>
+      <h3>How Do You Feel Today...?</h3>
+
+      <section class="emotion-buttons">
+        <button onclick="displayQuote3()" class="round-button" id="scared">
+          <span class="emotion-word">SCARED</span>
+          <br />
+          <picture>
+            <source
+              srcset="
+                https://fonts.gstatic.com/s/e/notoemoji/latest/1f623/512.webp
+              "
+              type="image/webp"
+            />
+            <img
+              src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f623/512.gif"
+              alt="😣"
+              class="emoji"
+              width="34"
+              height="34"
+            />
+          </picture>
+        </button>
+        <p id="quote3"></p>
+
+        <button onclick="displayQuote2()" class="round-button" id="uninspired">
+          <span class="emotion-word">UNINSPIRED</span>
+          <br />
+          <picture>
+            <source
+              srcset="
+                https://fonts.gstatic.com/s/e/notoemoji/latest/1f62c/512.webp
+              "
+              type="image/webp"
+            />
+            <img
+              src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f62c/512.gif"
+              alt="😬"
+              class="emoji"
+              width="34"
+              height="34"
+            />
+          </picture>
+        </button>
+        <p id="quote2"></p>
+
+        <button onclick="displayQuote()" class="round-button" id="inspired">
+          <span class="emotion-word">INSPIRED</span>
+          <br />
+          <picture>
+            <source
+              srcset="
+                https://fonts.gstatic.com/s/e/notoemoji/latest/1f929/512.webp
+              "
+              type="image/webp"
+            />
+            <img
+              src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f929/512.gif"
+              alt="🤩"
+              class="emoji"
+              width="34"
+              height="34"
+            />
+          </picture>
+        </button>
+        <p id="quote"></p>
+
+        <button onclick="displayQuote5()" class="round-button" id="happy">
+          <span class="emotion-word">HAPPY</span>
+          <br />
+          <picture>
+            <source
+              srcset="
+                https://fonts.gstatic.com/s/e/notoemoji/latest/1f600/512.webp
+              "
+              type="image/webp"
+            />
+            <img
+              src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f600/512.gif"
+              alt="😀"
+              class="emoji"
+              width="34"
+              height="34"
+            />
+          </picture>
+        </button>
+        <p id="quote5"></p>
+
+        <button onclick="displayQuote4()" class="round-button" id="sad">
+          <span class="emotion-word">SAD</span>
+          <br />
+          <picture>
+            <source
+              srcset="
+                https://fonts.gstatic.com/s/e/notoemoji/latest/1f61e/512.webp
+              "
+              type="image/webp"
+            />
+            <img
+              src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f61e/512.gif"
+              alt="😞"
+              class="emoji"
+              width="34"
+              height="34"
+            />
+          </picture>
+        </button>
+        <p id="quote4"></p>
+      </section>
+
+      <script>
+        const quotes = [
+          "Being inspired is awesome. Those moments when you feel all is just right with the world. GREAT. Now go forth and keep conquering…!!!",
+          "The difference between ordinary and extraordinary is that little bit …extra.",
+          "Logic will get you from A - B. Imagination will take you everywhere.",
+          "Done is better than perfect.",
+          "Your time is limited, so do not waste it.",
+          "Believe you can and you are halfway there.",
+          "Only people who are crazy enough to think they can change the world, are the ones who usually do.",
+          "The only way to do great work is to love what you do.",
+          "If you want to live a happy life, tie it to a goal, not to people or things.",
+        ];
+
+        const quotes2 = [
+          "Anyone who has never made a mistake has never tried anything new.",
+          "Old ways will not open new doors.",
+          "Just take it one day at a time.",
+          "No one said it was gonna be easy, but it will get better with each day you keep trying.",
+          "Anyone who has never made a mistake has never tried anything new.",
+        ];
+
+        const quotes3 = [
+          "It's okay to be scared. Being scared means you are about to do something really, really brave",
+          "To ask the right question is already half the solution to a problem.",
+          "Always try to finish what you started.",
+          "A successful relationship requires falling in love multiple times but always with the same person- so find your reason to love and fall back in love with it.",
+          "Remember.…it is not done until it ships..!!",
+        ];
+
+        const quotes4 = [
+          "I do not have to be productive to see value in myself.",
+          "Everything will work out perfect for me, and I will watch it unfold.",
+          "I have made it this far, and I will not stop now.",
+          "I am resilient in the face of any challenge.",
+          "I am strong and can overcome any obstacle in my life.",
+        ];
+
+        const quotes5 = [
+          "I create my happiness by accepting every part of myself.",
+          "Following my joy reveals the path to my best life.",
+          "I have the power to shape my ideal reality.",
+          "I am worthy of feeling happy.",
+          "I am in charge of my energy, and I am the only one who chooses how I feel.",
+        ];
+
+        function displayQuote() {
+          const randomIndex = Math.floor(Math.random() * quotes.length);
+          document.getElementById("quote").innerHTML = quotes[randomIndex];
+          document.getElementById("quote").classList.add("show");
+        }
+
+        function displayQuote2() {
+          const randomIndex = Math.floor(Math.random() * quotes2.length);
+          document.getElementById("quote2").innerHTML = quotes2[randomIndex];
+          document.getElementById("quote2").classList.add("show");
+        }
+
+        function displayQuote3() {
+          const randomIndex = Math.floor(Math.random() * quotes3.length);
+          document.getElementById("quote3").innerHTML = quotes3[randomIndex];
+          document.getElementById("quote3").classList.add("show");
+        }
+
+        function displayQuote4() {
+          const randomIndex = Math.floor(Math.random() * quotes4.length);
+          document.getElementById("quote4").innerHTML = quotes4[randomIndex];
+          document.getElementById("quote4").classList.add("show");
+        }
+
+        function displayQuote5() {
+          const randomIndex = Math.floor(Math.random() * quotes5.length);
+          document.getElementById("quote5").innerHTML = quotes5[randomIndex];
+          document.getElementById("quote5").classList.add("show");
+        }
+      </script>
+    </main>
+
+    <footer>
+      <h2>Contact</h2>
+
+      <div class="footer-info">
+        <aside class="contact-icon">
+          <span><i class="fa-regular fa-envelope"></i>Email</span>
+          <p>info@affirmations.com</p>
+        </aside>
+
         <section class="social">
           <ul class="name-icon">
-           <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
             <li><a href="instagram.com">Instagram</a></li>
           </ul>
           <ul class="name-icon">
@@ -107,9 +255,8 @@
             <li><a href="">Twitter</a></li>
           </ul>
         </section>
-        </p>
-        <p id="copyright">&copy;STAffirmations: Class9!</p>
-      </footer>
+      </div>
+      <p id="copyright">&copy; STAffirmations, Inc.</p>
+    </footer>
   </body>
-  
-  </html>
+</html>

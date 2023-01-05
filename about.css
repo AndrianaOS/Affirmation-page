@@ -11,6 +11,8 @@ font-family: 'Oleo Script', cursive;
 font-family: 'Permanent Marker', cursive;
 font-family: 'Quicksand', sans-serif; */
 }
+
+/* HEADER STYLES */
 .navbar {
   margin: 1em 0.5em 1.5em 0.5em;
   display: flex;
@@ -41,7 +43,9 @@ input {
   right: 2em;
   top: 3.5em;
 }
-
+/* ul {
+  display: none;
+} */
 #check:checked ~ .nav-items {
   display: block;
   list-style: none;
@@ -98,6 +102,7 @@ input {
     justify-content: space-between;
     align-items: center;
     width: 54em;
+    /* margin: 0; */
   }
 
   .nav-links {
@@ -135,38 +140,47 @@ input {
 }
 
 /* MAIN STYLES */
+
 main {
   position: relative;
-  top: 4.5em;
+  top: 5em;
 }
 
-button {
-  background-color: #ff5700;
-  border-radius: 25px;
-  border: 1px solid #000;
-  padding: 10px 20px;
-  background: yellow;
-  font-size: 0.5em;
-  cursor: pointer;
+.about-title {
+  text-align: center;
+  /* font-family: "Caveat", cursive; */
+  /* font-family: "Kalam", cursive; */
+  /* font-family: "Kaushan Script", cursive; */
+  /* font-family: "Lobster Two", cursive; */
+  /* font-family: "Oleo Script", cursive; */
+  /* font-family: "Permanent Marker", cursive; */
+  /* font-family: "Quicksand", sans-serif; */
 }
 
-.forums {
-  background-color: rgb(99, 163, 237);
-  border-radius: 100px;
+/* .emoji {
+  width: 50px;
+  height: 50px;
+  /* margin-top: 0.5em; */
+
+.info-section {
+  border: 5px solid #43bee5;
+  border-radius: 20px;
+  padding: 0.5em 1.2em;
+  margin-bottom: 1em;
 }
 
-.tips {
-  background-color: #ffeee4;
+@media screen and (min-width: 900px) {
+  main {
+    position: relative;
+  }
 }
 
 /*FOOTER STYLES*/
-
 footer {
   text-align: left;
   padding: 0.5em;
   margin: 1em;
   position: relative;
-  top: 10em;
   top: 3em;
 }
 
@@ -203,13 +217,16 @@ footer h2 {
 .fa-envelope {
   padding-right: 0.3em;
 }
+
 #copyright {
   text-align: center;
 }
+
 .fa-brands {
   border: 2px solid #41b853;
   border-radius: 50%;
   padding: 0.3em;
+  /* background-color: #41b853; */
 }
 
 @media screen and (min-width: 900px) {
