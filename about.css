@@ -157,6 +157,18 @@ main {
   /* font-family: "Quicksand", sans-serif; */
 }
 
+/* .emoji {
+  width: 50px;
+  height: 50px;
+  /* margin-top: 0.5em; */
+
+.info-section {
+  border: 5px solid #43bee5;
+  border-radius: 20px;
+  padding: 0.5em 1.2em;
+  margin-bottom: 1em;
+}
+
 @media screen and (min-width: 900px) {
   main {
     position: relative;
