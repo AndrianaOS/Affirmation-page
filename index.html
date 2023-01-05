@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/d81457d759.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Kalam&family=Kaushan+Script&family=Lobster+Two&family=Oleo+Script&family=Permanent+Marker&family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Affirmation Page</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <aside class="titlelogo">
+          <span><img src="Soulful.png" alt="" /></span>
+          <h1 class="title">Soulful Truths</h1>
+        </aside>
+        <section class="nav-links">
+          <input id="check" type="checkbox" />
+          <label for="check" id="checkID">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+          <ul class="nav-items">
+            <li>
+              <a href="index.html">HOME</a>
+            </li>
+            <li>
+              <a href="help.html">HELP PAGE</a>
+            </li>
+            <li>
+              <a href="about.html">ABOUT US</a>
+            </li>
+          </ul>
+        </section>
+      </nav>
+    </header>
+
+    <main>
+      <h3>How Do You Feel Today...?</h3>
+
+      <section class="emotion-buttons">
+        <button onclick="displayQuote3()" class="round-button" id="scared">
+          <span class="emotion-word">SCARED</span>
+          <br />
+          <picture>
+            <source
+              srcset="
+                https://fonts.gstatic.com/s/e/notoemoji/latest/1f623/512.webp
+              "
+              type="image/webp"
+            />
+            <img
+              src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f623/512.gif"
+              alt="😣"
+              class="emoji"
+              width="34"
+              height="34"
+            />
+          </picture>
+        </button>
+        <p id="quote3"></p>
+
+        <button onclick="displayQuote2()" class="round-button" id="uninspired">
+          <span class="emotion-word">UNINSPIRED</span>
+          <br />
+          <picture>
+            <source
+              srcset="
+                https://fonts.gstatic.com/s/e/notoemoji/latest/1f62c/512.webp
+              "
+              type="image/webp"
+            />
+            <img
+              src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f62c/512.gif"
+              alt="😬"
+              class="emoji"
+              width="34"
+              height="34"
+            />
+          </picture>
+        </button>
+        <p id="quote2"></p>
+
+        <button onclick="displayQuote()" class="round-button" id="inspired">
+          <span class="emotion-word">INSPIRED</span>
+          <br />
+          <picture>
+            <source
+              srcset="
+                https://fonts.gstatic.com/s/e/notoemoji/latest/1f929/512.webp
+              "
+              type="image/webp"
+            />
+            <img
+              src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f929/512.gif"
+              alt="🤩"
+              class="emoji"
+              width="34"
+              height="34"
+            />
+          </picture>
+        </button>
+        <p id="quote"></p>
+
+        <button onclick="displayQuote5()" class="round-button" id="happy">
+          <span class="emotion-word">HAPPY</span>
+          <br />
+          <picture>
+            <source
+              srcset="
+                https://fonts.gstatic.com/s/e/notoemoji/latest/1f600/512.webp
+              "
+              type="image/webp"
+            />
+            <img
+              src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f600/512.gif"
+              alt="😀"
+              class="emoji"
+              width="34"
+              height="34"
+            />
+          </picture>
+        </button>
+        <p id="quote5"></p>
+
+        <button onclick="displayQuote4()" class="round-button" id="sad">
+          <span class="emotion-word">SAD</span>
+          <br />
+          <picture>
+            <source
+              srcset="
+                https://fonts.gstatic.com/s/e/notoemoji/latest/1f61e/512.webp
+              "
+              type="image/webp"
+            />
+            <img
+              src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f61e/512.gif"
+              alt="😞"
+              class="emoji"
+              width="34"
+              height="34"
+            />
+          </picture>
+        </button>
+        <p id="quote4"></p>
+      </section>
+
+      <script>
+        const quotes = [
+          "Being inspired is awesome. Those moments when you feel all is just right with the world. GREAT. Now go forth and keep conquering…!!!",
+          "The difference between ordinary and extraordinary is that little bit …extra.",
+          "Logic will get you from A - B. Imagination will take you everywhere.",
+          "Done is better than perfect.",
+          "Your time is limited, so do not waste it.",
+          "Believe you can and you are halfway there.",
+          "Only people who are crazy enough to think they can change the world, are the ones who usually do.",
+          "The only way to do great work is to love what you do.",
+          "If you want to live a happy life, tie it to a goal, not to people or things.",
+        ];
+
+        const quotes2 = [
+          "Anyone who has never made a mistake has never tried anything new.",
+          "Old ways will not open new doors.",
+          "Just take it one day at a time.",
+          "No one said it was gonna be easy, but it will get better with each day you keep trying.",
+          "Anyone who has never made a mistake has never tried anything new.",
+        ];
+
+        const quotes3 = [
+          "It's okay to be scared. Being scared means you are about to do something really, really brave",
+          "To ask the right question is already half the solution to a problem.",
+          "Always try to finish what you started.",
+          "A successful relationship requires falling in love multiple times but always with the same person- so find your reason to love and fall back in love with it.",
+          "Remember.…it is not done until it ships..!!",
+        ];
+
+        const quotes4 = [
+          "I do not have to be productive to see value in myself.",
+          "Everything will work out perfect for me, and I will watch it unfold.",
+          "I have made it this far, and I will not stop now.",
+          "I am resilient in the face of any challenge.",
+          "I am strong and can overcome any obstacle in my life.",
+        ];
+
+        const quotes5 = [
+          "I create my happiness by accepting every part of myself.",
+          "Following my joy reveals the path to my best life.",
+          "I have the power to shape my ideal reality.",
+          "I am worthy of feeling happy.",
+          "I am in charge of my energy, and I am the only one who chooses how I feel.",
+        ];
+
+        function displayQuote() {
+          const randomIndex = Math.floor(Math.random() * quotes.length);
+          document.getElementById("quote").innerHTML = quotes[randomIndex];
+          document.getElementById("quote").classList.add("show");
+        }
+
+        function displayQuote2() {
+          const randomIndex = Math.floor(Math.random() * quotes2.length);
+          document.getElementById("quote2").innerHTML = quotes2[randomIndex];
+          document.getElementById("quote2").classList.add("show");
+        }
+
+        function displayQuote3() {
+          const randomIndex = Math.floor(Math.random() * quotes3.length);
+          document.getElementById("quote3").innerHTML = quotes3[randomIndex];
+          document.getElementById("quote3").classList.add("show");
+        }
+
+        function displayQuote4() {
+          const randomIndex = Math.floor(Math.random() * quotes4.length);
+          document.getElementById("quote4").innerHTML = quotes4[randomIndex];
+          document.getElementById("quote4").classList.add("show");
+        }
+
+        function displayQuote5() {
+          const randomIndex = Math.floor(Math.random() * quotes5.length);
+          document.getElementById("quote5").innerHTML = quotes5[randomIndex];
+          document.getElementById("quote5").classList.add("show");
+        }
+      </script>
+    </main>
+
+    <footer>
+      <h2>Contact</h2>
+
+      <div class="footer-info">
+        <aside class="contact-icon">
+          <span><i class="fa-regular fa-envelope"></i>Email</span>
+          <p>info@affirmations.com</p>
+        </aside>
+
+        <section class="social">
+          <ul class="name-icon">
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><a href="instagram.com">Instagram</a></li>
+          </ul>
+          <ul class="name-icon">
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+            <li><a href="facebook.com">Facebook</a></li>
+          </ul>
+          <ul class="name-icon">
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><a href="">Twitter</a></li>
+          </ul>
+        </section>
+      </div>
+      <p id="copyright">&copy; STAffirmations, Inc.</p>
+    </footer>
+  </body>
+</html>
