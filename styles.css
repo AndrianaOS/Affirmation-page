@@ -173,6 +173,12 @@ main h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  /* display: grid;
+  justify-content: center;
+  grid-template-columns: 10em 10em;
+  grid-template-rows: 10em 10em;
+  grid-gap: 1em; */
 }
 
 .emotion-buttons p {
@@ -184,12 +190,23 @@ main h3 {
   height: 7em;
   text-align: center;
   width: 12em;
+
+  /* border: 5px solid #43bee5;
+  border-radius: 20px;
+  padding: 1.2em;
+  display: none;
+  margin-top: 0;
+  height: 7em;
+  text-align: center; */
 }
 
 .emotion-buttons p.show {
   display: block;
   display: flex;
   align-items: center;
+
+  /* display: block;
+  align-items: center; */
 }
 
 .round-button {
@@ -201,7 +218,6 @@ main h3 {
   background-color: #f40058;
   color: #161b40;
   font-weight: bold;
-  /* font-size: 1em; */
   margin-bottom: 1em;
 }
 
@@ -215,16 +231,28 @@ main h3 {
   margin-top: 0.5em;
 }
 
+#quote3 {
+  border: 5px solid #f40058;
+}
+
 #uninspired {
   padding: 0.4em;
   background-color: #efa500;
   border: 2px solid #efa500;
 }
 
+#quote2 {
+  border: 5px solid #efa500;
+}
+
 #inspired {
   padding: 1.1em;
   background-color: #41b853;
   border: 2px solid #41b853;
+}
+
+#quote {
+  border: 5px solid #41b853;
 }
 
 #happy {
@@ -235,6 +263,10 @@ main h3 {
 
 #sad {
   padding: 2.5em;
+}
+
+#quote4 {
+  border: 5px solid #f40058;
 }
 
 /*FOOTER STYLES*/
