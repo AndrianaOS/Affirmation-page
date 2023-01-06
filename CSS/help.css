@@ -151,7 +151,7 @@ main {
   top: 4.5em;
 }
 
-.accordion {
+.accordion{
   background-color: #0ccf87;
   color: rgb(17, 17, 17);
   padding: 16px;
@@ -164,16 +164,6 @@ main {
   margin-left: 80px;
   margin-bottom: 40px;
   margin-top: 10px;
-}
-
-button {
-  background-color: #ff5700;
-  border-radius: 25px;
-  border: 1px solid #000;
-  padding: 10px 20px;
-  background: yellow;
-  font-size: 0.5em;
-  cursor: pointer;
 }
 
 .forums {
