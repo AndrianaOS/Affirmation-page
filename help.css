@@ -11,11 +11,13 @@ font-family: 'Oleo Script', cursive;
 font-family: 'Permanent Marker', cursive;
 font-family: 'Quicksand', sans-serif; */
 }
+
 .navbar {
   margin: 1em 0.5em 1.5em 0.5em;
   display: flex;
   justify-content: space-between;
 }
+
 .titlelogo {
   display: flex;
   justify-content: flex-start;
@@ -28,6 +30,13 @@ span img {
 }
 .title {
   margin-left: 0.5em;
+  /* font-family: "Caveat", cursive; */
+  /* font-family: "Kalam", cursive; */
+  /* font-family: "Kaushan Script", cursive; */
+  /* font-family: "Lobster Two", cursive; */
+  /* font-family: "Oleo Script", cursive; */
+  /* font-family: "Permanent Marker", cursive; */
+  /* font-family: "Quicksand", sans-serif; */
 }
 .icon {
   display: flex;
@@ -97,7 +106,9 @@ input {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 54em;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .nav-links {
@@ -166,7 +177,6 @@ footer {
   padding: 0.5em;
   margin: 1em;
   position: relative;
-  top: 10em;
   top: 3em;
 }
 
@@ -203,13 +213,16 @@ footer h2 {
 .fa-envelope {
   padding-right: 0.3em;
 }
+
 #copyright {
   text-align: center;
 }
+
 .fa-brands {
   border: 2px solid #41b853;
   border-radius: 50%;
   padding: 0.3em;
+  /* background-color: #41b853; */
 }
 
 @media screen and (min-width: 900px) {

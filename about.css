@@ -12,12 +12,12 @@ font-family: 'Permanent Marker', cursive;
 font-family: 'Quicksand', sans-serif; */
 }
 
-/* HEADER STYLES */
 .navbar {
   margin: 1em 0.5em 1.5em 0.5em;
   display: flex;
   justify-content: space-between;
 }
+
 .titlelogo {
   display: flex;
   justify-content: flex-start;
@@ -30,6 +30,13 @@ span img {
 }
 .title {
   margin-left: 0.5em;
+  /* font-family: "Caveat", cursive; */
+  /* font-family: "Kalam", cursive; */
+  /* font-family: "Kaushan Script", cursive; */
+  /* font-family: "Lobster Two", cursive; */
+  /* font-family: "Oleo Script", cursive; */
+  /* font-family: "Permanent Marker", cursive; */
+  /* font-family: "Quicksand", sans-serif; */
 }
 .icon {
   display: flex;
@@ -43,9 +50,7 @@ input {
   right: 2em;
   top: 3.5em;
 }
-/* ul {
-  display: none;
-} */
+
 #check:checked ~ .nav-items {
   display: block;
   list-style: none;
@@ -101,8 +106,9 @@ input {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 54em;
-    /* margin: 0; */
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .nav-links {
@@ -138,7 +144,6 @@ input {
     margin-right: 0.5em;
   }
 }
-
 /* MAIN STYLES */
 
 main {
@@ -169,9 +174,39 @@ main {
   margin-bottom: 1em;
 }
 
+.image-area {
+  display: none;
+}
+
 @media screen and (min-width: 900px) {
   main {
     position: relative;
+    display: grid;
+    grid-template-columns: 25em 25em;
+    grid-template-rows: 20em 20em;
+    grid-gap: 1em;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .image-area {
+    display: contents;
+  }
+
+  .image {
+    max-height: -webkit-fill-available;
+    margin-left: 3em;
+  }
+
+  #image2 {
+    margin-left: 0;
+    margin-right: 3em;
+  }
+
+  .info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 }
 

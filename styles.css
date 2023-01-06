@@ -80,21 +80,6 @@ input {
   font-weight: bold;
 }
 
-/* @media screen and (min-width: 900px) {
-  #check,
-  #checkID {
-    display: none;
-  }
-
-  .nav-items {
-    display: flex;
-  }
-
-  .nav-items li a {
-    text-decoration: none;
-  }
-} */
-
 @media screen and (min-width: 900px) {
   header {
     display: flex;
@@ -121,7 +106,9 @@ input {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 54em;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .nav-links {
