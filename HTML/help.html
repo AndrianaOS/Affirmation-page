@@ -48,16 +48,14 @@
 
     <main>
       <p>
-        Need help with a coding project or have a question about a specific
-        language or concept? Check out these forums and communities:
+        Need help with a coding project or have a question about a programming language or concept?
       </p>
-
-      <p>Need help with a coding project or have a question about a specific language or concept?</p>
-
-      <h2><button class="forums">
+        
+      <div class="help-forums">
+      <button class="accordion">
           <h2>CLICK HERE</h2>
-        </button> to access some helpful Coding Forums and Programming Resources</h2>
-      <div id="helpsites">
+        <p>to access Helpful Forums and online Programming Resources</p> </button>
+      <div class="panel">
         <ul>
           <li><a href="https://stackoverflow.com/">Stack Overflow</a></li>
           <li><a href="https://www.w3schools.com/php/php_ref_mysqli.asp">W3Schools PHP Forum</a></li>
@@ -66,9 +64,10 @@
           <li><a href="https://www.udacity.com/community">Udacity Community</a></li>
         </ul>
       </div>
+      </div>
       <br>
 
-      <p>Remember to always be respectful and follow the forum rules and guidelines when posting or asking for help.</p>
+      <p><i>[Remember to always be respectful and follow the forum's rules and guidelines when posting or asking for help.]</i></p>
 
       <section class="tips">
         <p>Click the buttons below to find some very helpful<h4>FOCUS & STRESS RELIEF TIPS for Students..!</h4></p>
@@ -147,9 +146,28 @@
       </div>
       <p id="copyright">&copy; STAffirmations, Inc.</p>
     </footer>
-  </body>
-</html>
-  </body>
+
+
+    <!-- /* DO NOT DELETE BELOW PLEASE */ -->
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+    </script>
+
+    <!-- /* DO NOT DELETE ABOVE PLEASE */ -->
+
+
 
   </html>
     </body>

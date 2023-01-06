@@ -151,6 +151,21 @@ main {
   top: 4.5em;
 }
 
+.accordion {
+  background-color: #0ccf87;
+  color: rgb(17, 17, 17);
+  padding: 16px;
+  font-size: 16px;
+  border: black solid 1px;
+  height: 210px;
+  width: 200px;
+  border-radius: 100px;
+  text-align: center;
+  margin-left: 80px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
 button {
   background-color: #ff5700;
   border-radius: 25px;
