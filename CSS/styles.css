@@ -191,8 +191,8 @@ main h3 {
   display: block;
   display: flex;
   align-items: center;
-
-  /* display: block;
+  /* 
+  display: block;
   align-items: center; */
 }
 
