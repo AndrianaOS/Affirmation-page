@@ -173,21 +173,22 @@ main {
 .tips p{
   display: flex;
   justify-content: center;
+  margin-right: 5rems;
 }
 
 .accordion{
   background-color: #0ccf87;
   color: rgb(17, 17, 17);
-  padding: 16px;
+  padding: 20px;
   font-size: 16px;
-  border: rgb(237, 45, 151) solid 4px;
-  height: 210px;
-  width: 200px;
-  border-radius: 100px;
+  border: rgb(237, 45, 151) solid 6px;
+  height: 240px;
+  width: 240px;
+  border-radius: 50%;
   text-align: center;
-  margin-left: 80px;
-  margin-bottom: 40px;
-  margin-top: 10px;
+  margin-left: 150px;
+  margin-bottom: 60px;
+  margin-top: 40px;
 }
 
 .forums {
