@@ -51,7 +51,6 @@
       <section class="emotion-buttons">
         <button onclick="displayQuote3()" class="round-button" id="scared">
           <!-- <span class="emotion-word">SCARED</span> -->
-          <br />
           <picture>
             <source
               srcset="
@@ -69,11 +68,10 @@
           </picture>
           <span class="emotion-word">SCARED</span>
         </button>
-        <p id="quote3"></p>
+        <p id="quote3" class="quote"></p>
 
         <button onclick="displayQuote2()" class="round-button" id="uninspired">
           <!-- <span class="emotion-word">UNINSPIRED</span> -->
-          <br />
           <picture>
             <source
               srcset="
@@ -91,11 +89,10 @@
           </picture>
           <span class="emotion-word">UNINSPIRED</span>
         </button>
-        <p id="quote2"></p>
+        <p id="quote2" class="quote"></p>
 
         <button onclick="displayQuote()" class="round-button" id="inspired">
-          <span class="emotion-word">INSPIRED</span>
-          <br />
+          <!-- <span class="emotion-word">INSPIRED</span> -->
           <picture>
             <source
               srcset="
@@ -111,12 +108,12 @@
               height="34"
             />
           </picture>
+          <span class="emotion-word">INSPIRED</span>
         </button>
-        <p id="quote"></p>
+        <p id="quote1" class="quote"></p>
 
         <button onclick="displayQuote5()" class="round-button" id="happy">
-          <span class="emotion-word">HAPPY</span>
-          <br />
+          <!-- <span class="emotion-word">HAPPY</span> -->
           <picture>
             <source
               srcset="
@@ -132,12 +129,12 @@
               height="34"
             />
           </picture>
+          <span class="emotion-word">HAPPY</span>
         </button>
-        <p id="quote5"></p>
+        <p id="quote5" class="quote"></p>
 
         <button onclick="displayQuote4()" class="round-button" id="sad">
-          <span class="emotion-word">SAD</span>
-          <br />
+          <!-- <span class="emotion-word">SAD</span> -->
           <picture>
             <source
               srcset="
@@ -153,12 +150,13 @@
               height="34"
             />
           </picture>
+          <span class="emotion-word">SAD</span>
         </button>
-        <p id="quote4"></p>
+        <p id="quote4" class="quote"></p>
       </section>
 
       <script>
-        const quotes = [
+        const quotes1 = [
           "Being inspired is awesome. Those moments when you feel all is just right with the world. GREAT. Now go forth and keep conquering…!!!",
           "The difference between ordinary and extraordinary is that little bit …extra.",
           "Logic will get you from A to B. Imagination will take you everywhere.",
@@ -225,33 +223,44 @@
         ];
 
         function displayQuote() {
-          const randomIndex = Math.floor(Math.random() * quotes.length);
-          document.getElementById("quote").innerHTML = quotes[randomIndex];
-          document.getElementById("quote").classList.add("show");
+          hideAllQuotes();
+          const randomIndex = Math.floor(Math.random() * quotes1.length);
+          document.getElementById("quote1").innerHTML = quotes1[randomIndex];
+          document.getElementById("quote1").classList.add("show");
         }
 
         function displayQuote2() {
+          hideAllQuotes();
           const randomIndex = Math.floor(Math.random() * quotes2.length);
           document.getElementById("quote2").innerHTML = quotes2[randomIndex];
           document.getElementById("quote2").classList.add("show");
+          // document.getElementById("quote2").classList.remove("show");
         }
 
         function displayQuote3() {
+          hideAllQuotes();
           const randomIndex = Math.floor(Math.random() * quotes3.length);
           document.getElementById("quote3").innerHTML = quotes3[randomIndex];
           document.getElementById("quote3").classList.add("show");
         }
 
         function displayQuote4() {
+          hideAllQuotes();
           const randomIndex = Math.floor(Math.random() * quotes4.length);
           document.getElementById("quote4").innerHTML = quotes4[randomIndex];
           document.getElementById("quote4").classList.add("show");
         }
 
         function displayQuote5() {
+          hideAllQuotes();
           const randomIndex = Math.floor(Math.random() * quotes5.length);
           document.getElementById("quote5").innerHTML = quotes5[randomIndex];
           document.getElementById("quote5").classList.add("show");
+        }
+
+        function hideAllQuotes() {
+          let allQuotes = document.querySelectorAll(".quote");
+          allQuotes.forEach((element) => element.classList.remove("show"));
         }
       </script>
     </main>
