@@ -169,10 +169,22 @@ main {
 .forums {
   background-color: rgb(99, 163, 237);
   border-radius: 100px;
+  display: flex;
+  justify-content: center;
 }
 
 .tips {
   background-color: #ffeee4;
+  margin-right: 30px;
+  margin-left: 20px;
+}
+
+/* Styling the accordion panel to be hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
 }
 
 /*FOOTER STYLES*/

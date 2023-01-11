@@ -47,7 +47,7 @@
       </header>
 
     <main>
-      <p>
+      <p styles ="display: flex; justify-content: center;">
         Need help with a coding project or have a question about a programming language or concept...?
       </p>
         
@@ -69,7 +69,8 @@
      
       <hr />
 
-      <p><i>[Remember to always be respectful and follow the forum's rules and guidelines when posting or asking for help.]</i></p>
+      <p styles ="display: flex;
+    justify-content: center;"> <i>[Remember to always be respectful and follow the forum's rules and guidelines when posting or asking for help.]</i></p>
       <hr />
       <section class="tips">
         <p>Click the buttons below to find some very helpful FOCUS & STRESS RELIEF TIPS FOR STUDENTS! </p>
@@ -164,7 +165,7 @@
       var acc = document.getElementsByClassName("accordion");
       var i;
       for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function () {
+        acc[i].addEventListener("click", function() {
           this.classList.toggle("active");
           var panel = this.nextElementSibling;
           if (panel.style.display === "block") {
