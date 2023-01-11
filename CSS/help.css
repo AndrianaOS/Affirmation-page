@@ -150,6 +150,30 @@ main {
   position: relative;
   top: 4.5em;
 }
+#code-help p{
+  display: flex;
+  justify-content: center;
+}
+
+#rules p{
+  display: flex;
+  justify-content: center;
+}
+
+.help-forums{
+  display: flex;
+  justify-content: center;
+  
+}
+.help-forums img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+}
+.tips p{
+  display: flex;
+  justify-content: center;
+}
 
 .accordion{
   background-color: #0ccf87;
@@ -174,9 +198,9 @@ main {
 }
 
 .tips {
-  background-color: #ffeee4;
-  margin-right: 30px;
-  margin-left: 20px;
+  background-color: none;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 /* Styling the accordion panel to be hidden by default */
