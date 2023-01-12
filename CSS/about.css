@@ -183,7 +183,7 @@ main {
     position: relative;
     display: grid;
     grid-template-columns: 25em 25em;
-    grid-template-rows: 20em 20em;
+    grid-template-rows: 20em 20em 20em;
     grid-gap: 1em;
     justify-content: center;
     align-content: center;
@@ -202,6 +202,9 @@ main {
     margin-left: 0;
     margin-right: 3em;
   }
+
+  /* #image3 {
+  } */
 
   .info-section {
     display: flex;
