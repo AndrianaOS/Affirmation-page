@@ -152,7 +152,8 @@ main {
 }
 #code-help p{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: right;
 }
 
 #rules p{
@@ -162,7 +163,8 @@ main {
 
 .help-forums{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   
 }
 .help-forums img{
@@ -200,8 +202,11 @@ main {
 
 .tips {
   background-color: none;
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 0px;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Styling the accordion panel to be hidden by default */
