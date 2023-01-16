@@ -214,11 +214,11 @@ main {
 }
 
 #accordion-B{
-  background-color: #f27806;
+  background-color: #e910a8;
   color: rgb(17, 17, 17);
   padding: 20px;
   font-size: 16px;
-  border: #09ccea solid 6px;
+  border: #16a3ea solid 6px;
   height: 210px;
   width: 210px;
   border-radius: 50%;
@@ -234,11 +234,11 @@ main {
 }
 
 #accordion-C{
-  background-color: #08b0db;
+  background-color: #08b1ea;
   color: rgb(17, 17, 17);
   padding: 20px;
   font-size: 16px;
-  border: rgb(230, 219, 7) solid 6px;
+  border: rgb(240, 185, 67) solid 6px;
   height: 210px;
   width: 210px;
   border-radius: 50%;
@@ -260,7 +260,7 @@ main {
   color: rgb(17, 17, 17);
   padding: 20px;
   font-size: 16px;
-  border: rgb(235, 121, 229) solid 6px;
+  border: rgb(42, 199, 7) solid 6px;
   height: 210px;
   width: 210px;
   border-radius: 50%;
@@ -270,7 +270,7 @@ main {
   margin-top: 40px;
 }
 
-/*studt break img styling*/
+/*study break img styling*/
 #accordion-D img {
   height: 110px;
   width: 110px;
