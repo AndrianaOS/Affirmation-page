@@ -150,10 +150,8 @@ main {
   position: relative;
   top: 4.5em;
 }
-#code-help p{
-  display: flex;
-  flex-direction: column;
-  justify-content: right;
+#help-paragraf{
+  text-align: center;
 }
 
 #rules p{
@@ -192,6 +190,94 @@ main {
   margin-bottom: 60px;
   margin-top: 40px;
 }
+
+.accordion-A{
+  background-color: #0ccf87;
+  color: rgb(17, 17, 17);
+  padding: 20px;
+  font-size: 16px;
+  border: rgb(237, 45, 151) solid 6px;
+  height: 210px;
+  width: 210px;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 10px;
+  margin-bottom: 60px;
+  margin-top: 40px;
+}
+
+/*clock img styling*/
+#accordion-A img {
+  height: 100px;
+  width: 100px;
+  background-color: #0ccf87;
+}
+
+#accordion-B{
+  background-color: #f27806;
+  color: rgb(17, 17, 17);
+  padding: 20px;
+  font-size: 16px;
+  border: #09ccea solid 6px;
+  height: 210px;
+  width: 210px;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 10px;
+  margin-bottom: 60px;
+  margin-top: 40px;
+}
+/*clock img styling*/
+#accordion-B img{
+  height: 100px;
+  width: 100px;
+}
+
+#accordion-C{
+  background-color: #08b0db;
+  color: rgb(17, 17, 17);
+  padding: 20px;
+  font-size: 16px;
+  border: rgb(230, 219, 7) solid 6px;
+  height: 210px;
+  width: 210px;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 10px;
+  margin-bottom: 60px;
+  margin-top: 40px;
+}
+
+/*stress img styling*/
+#accordion-C img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+#accordion-D {
+  background-color: #faea5c;
+  color: rgb(17, 17, 17);
+  padding: 20px;
+  font-size: 16px;
+  border: rgb(235, 121, 229) solid 6px;
+  height: 210px;
+  width: 210px;
+  border-radius: 50%;
+  text-align: center;
+  margin-left: 10px;
+  margin-bottom: 60px;
+  margin-top: 40px;
+}
+
+/*studt break img styling*/
+#accordion-D img {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+}
+
+
 
 .forums {
   background-color: rgb(99, 163, 237);
