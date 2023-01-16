@@ -254,6 +254,16 @@ main {
   width: 100px;
   border-radius: 50%;
 }
+#two{
+background-color: #aae1f5;
+}
+mark {
+  background-color: #ebdf90;
+}
+
+#studybreak{
+  background-color: pink;
+}
 
 #accordion-D {
   background-color: #faea5c;
