@@ -244,18 +244,35 @@ main h3 {
 
 #happy {
   padding: 1.8em;
-  background-color: #43bee5;
-  border: #43bee5 2px solid;
+  background-color: #fb9fc0;
+  border: #fb9fc0 2px solid;
+}
+
+#quote5 {
+  border: 5px solid #fb9fc0;
 }
 
 #sad {
   padding: 2.5em;
-  background-color: #7a002c;
-  border: 2px solid #7a002c;
+  background-color: #43bee5;
+  border: 2px solid #43bee5;
 }
 
 #quote4 {
-  border: 5px solid #f40058;
+  border: 5px solid #43bee5;
+}
+
+#tired {
+  background-color: #a1b1b3;
+  border: 2px solid #a1b1b3;
+}
+
+#quote6 {
+  border: 5px solid #a1b1b3;
+}
+
+.quote {
+  font-size: 2em;
 }
 
 /*FOOTER STYLES*/
