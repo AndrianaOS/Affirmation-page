@@ -84,7 +84,6 @@ function displayQuote() {
   document.getElementById("quote1").classList.add("show");
   document.getElementById("quote-desktop").innerHTML = quotes1[randomIndex];
   document.getElementById("quote-desktop").classList.add("show");
-
 }
 
 function displayQuote2() {
@@ -129,6 +128,8 @@ function displayQuote6() {
   const randomIndex = Math.floor(Math.random() * quotes6.length);
   document.getElementById("quote6").innerHTML = quotes6[randomIndex];
   document.getElementById("quote6").classList.add("show");
+  document.getElementById("quote-desktop").innerHTML = quotes6[randomIndex];
+  document.getElementById("quote-desktop").classList.add("show");
 }
 
 function hideAllQuotes() {
