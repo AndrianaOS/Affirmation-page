@@ -271,10 +271,6 @@ main h3 {
   border: 5px solid #a1b1b3;
 }
 
-.quote {
-  font-size: 2em;
-}
-
 /*FOOTER STYLES*/
 footer {
   text-align: left;
@@ -329,15 +325,14 @@ footer h2 {
   /* background-color: #41b853; */
 }
 .desktop {
-  display:none;
+  display: none;
 }
 
 @media screen and (min-width: 900px) {
-
   .desktop {
-    display:flex;
+    display: flex;
   }
-  
+
   .contact-icon {
     display: flex;
     flex-direction: column;
@@ -369,7 +364,7 @@ footer h2 {
     margin-right: 0.3em;
   }
   .emotion-buttons {
-    flex-direction:row;
+    flex-direction: row;
   }
   .emotion-buttons .quote.show {
     display: none;
@@ -377,14 +372,14 @@ footer h2 {
 
   .quote22 {
     font-size: 20px;
-    padding-top:100px;
+    padding-top: 100px;
   }
-  
+
   .box {
     width: 600px;
     height: 300px;
-    background-color: #F5F5F5;
-    border: 1px solid #CCC;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
     padding: 20px;
     margin: 20px auto;
     text-align: center;
