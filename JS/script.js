@@ -69,6 +69,9 @@ function displayQuote() {
   const randomIndex = Math.floor(Math.random() * quotes1.length);
   document.getElementById("quote1").innerHTML = quotes1[randomIndex];
   document.getElementById("quote1").classList.add("show");
+  document.getElementById("quote-desktop").innerHTML = quotes1[randomIndex];
+  document.getElementById("quote-desktop").classList.add("show");
+
 }
 
 function displayQuote2() {
@@ -76,6 +79,8 @@ function displayQuote2() {
   const randomIndex = Math.floor(Math.random() * quotes2.length);
   document.getElementById("quote2").innerHTML = quotes2[randomIndex];
   document.getElementById("quote2").classList.add("show");
+  document.getElementById("quote-desktop").innerHTML = quotes2[randomIndex];
+  document.getElementById("quote-desktop").classList.add("show");
   // document.getElementById("quote2").classList.remove("show");
 }
 
@@ -84,6 +89,8 @@ function displayQuote3() {
   const randomIndex = Math.floor(Math.random() * quotes3.length);
   document.getElementById("quote3").innerHTML = quotes3[randomIndex];
   document.getElementById("quote3").classList.add("show");
+  document.getElementById("quote-desktop").innerHTML = quotes3[randomIndex];
+  document.getElementById("quote-desktop").classList.add("show");
 }
 
 function displayQuote4() {
@@ -91,6 +98,8 @@ function displayQuote4() {
   const randomIndex = Math.floor(Math.random() * quotes4.length);
   document.getElementById("quote4").innerHTML = quotes4[randomIndex];
   document.getElementById("quote4").classList.add("show");
+  document.getElementById("quote-desktop").innerHTML = quotes4[randomIndex];
+  document.getElementById("quote-desktop").classList.add("show");
 }
 
 function displayQuote5() {
@@ -98,6 +107,8 @@ function displayQuote5() {
   const randomIndex = Math.floor(Math.random() * quotes5.length);
   document.getElementById("quote5").innerHTML = quotes5[randomIndex];
   document.getElementById("quote5").classList.add("show");
+  document.getElementById("quote-desktop").innerHTML = quotes5[randomIndex];
+  document.getElementById("quote-desktop").classList.add("show");
 }
 
 function hideAllQuotes() {

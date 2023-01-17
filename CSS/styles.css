@@ -311,8 +311,16 @@ footer h2 {
   padding: 0.3em;
   /* background-color: #41b853; */
 }
+.desktop {
+  display:none;
+}
 
 @media screen and (min-width: 900px) {
+
+  .desktop {
+    display:flex;
+  }
+  
   .contact-icon {
     display: flex;
     flex-direction: column;
@@ -343,4 +351,11 @@ footer h2 {
   .name-icon .fa-brands {
     margin-right: 0.3em;
   }
+  .emotion-buttons {
+    flex-direction:row;
+  }
+  .emotion-buttons .quote.show {
+    display: none;
+  }
+
 }
