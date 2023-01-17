@@ -244,16 +244,35 @@ main h3 {
 
 #happy {
   padding: 1.8em;
-  background-color: #43bee5;
-  border: #43bee5 2px solid;
+  background-color: #fb9fc0;
+  border: #fb9fc0 2px solid;
+}
+
+#quote5 {
+  border: 5px solid #fb9fc0;
 }
 
 #sad {
   padding: 2.5em;
+  background-color: #43bee5;
+  border: 2px solid #43bee5;
 }
 
 #quote4 {
-  border: 5px solid #f40058;
+  border: 5px solid #43bee5;
+}
+
+#tired {
+  background-color: #a1b1b3;
+  border: 2px solid #a1b1b3;
+}
+
+#quote6 {
+  border: 5px solid #a1b1b3;
+}
+
+.quote {
+  font-size: 2em;
 }
 
 /*FOOTER STYLES*/
@@ -309,8 +328,16 @@ footer h2 {
   padding: 0.3em;
   /* background-color: #41b853; */
 }
+.desktop {
+  display:none;
+}
 
 @media screen and (min-width: 900px) {
+
+  .desktop {
+    display:flex;
+  }
+  
   .contact-icon {
     display: flex;
     flex-direction: column;
@@ -340,5 +367,26 @@ footer h2 {
 
   .name-icon .fa-brands {
     margin-right: 0.3em;
+  }
+  .emotion-buttons {
+    flex-direction:row;
+  }
+  .emotion-buttons .quote.show {
+    display: none;
+  }
+
+  .quote22 {
+    font-size: 20px;
+    padding-top:100px;
+  }
+  
+  .box {
+    width: 600px;
+    height: 300px;
+    background-color: #F5F5F5;
+    border: 1px solid #CCC;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
   }
 }

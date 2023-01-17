@@ -8,7 +8,7 @@ const quotes1 = [
   `"The only way to do great work is to love what you do."`,
   `"If you want to live a happy life, tie it to a goal, not to people or things."`,
   `"Channel your inspiration into your creativity and you will always have a reason to feel inspired."`,
- `"You are ONE in a billion. There is only YOU!"`,
+  `"You are ONE in a billion. There is only YOU!"`,
 ];
 
 const quotes2 = [
@@ -64,11 +64,27 @@ const quotes5 = [
   `"Happiness lies in the joy of achievement, in the thrill of creative effort."`,
 ];
 
+const quotes6 = [
+  `"There is virtue in work and there is virtue in rest. Use both and overlook neither."`,
+  `"Run when you can, walk if you have to, crawl if you must; just never give up."`,
+  `"Keep your face toward the sunshine--and shadows will fall behind you."`,
+  `"Out of suffering have emerged the strongest souls; the most massive characters are seared with scars."`,
+  `"Many of life's failures are people who did not realize how close they were to success when they gave up."`,
+  `"Courage is not having the strength to go on; it is going on when you don't have the strength."`,
+  `"Life is very interesting. In the end, some of your greatest pains become your greatest strengths."`,
+  `"Perseverance is the hard work you do after you get tired of doing the hard work you already did."`,
+  `"Tough times never last. Tough people do."`,
+  `"Cut yourself some slack. You’re doing better than you think."`,
+];
+
 function displayQuote() {
   hideAllQuotes();
   const randomIndex = Math.floor(Math.random() * quotes1.length);
   document.getElementById("quote1").innerHTML = quotes1[randomIndex];
   document.getElementById("quote1").classList.add("show");
+  document.getElementById("quote-desktop").innerHTML = quotes1[randomIndex];
+  document.getElementById("quote-desktop").classList.add("show");
+
 }
 
 function displayQuote2() {
@@ -76,6 +92,8 @@ function displayQuote2() {
   const randomIndex = Math.floor(Math.random() * quotes2.length);
   document.getElementById("quote2").innerHTML = quotes2[randomIndex];
   document.getElementById("quote2").classList.add("show");
+  document.getElementById("quote-desktop").innerHTML = quotes2[randomIndex];
+  document.getElementById("quote-desktop").classList.add("show");
   // document.getElementById("quote2").classList.remove("show");
 }
 
@@ -84,6 +102,8 @@ function displayQuote3() {
   const randomIndex = Math.floor(Math.random() * quotes3.length);
   document.getElementById("quote3").innerHTML = quotes3[randomIndex];
   document.getElementById("quote3").classList.add("show");
+  document.getElementById("quote-desktop").innerHTML = quotes3[randomIndex];
+  document.getElementById("quote-desktop").classList.add("show");
 }
 
 function displayQuote4() {
@@ -91,6 +111,8 @@ function displayQuote4() {
   const randomIndex = Math.floor(Math.random() * quotes4.length);
   document.getElementById("quote4").innerHTML = quotes4[randomIndex];
   document.getElementById("quote4").classList.add("show");
+  document.getElementById("quote-desktop").innerHTML = quotes4[randomIndex];
+  document.getElementById("quote-desktop").classList.add("show");
 }
 
 function displayQuote5() {
@@ -98,6 +120,15 @@ function displayQuote5() {
   const randomIndex = Math.floor(Math.random() * quotes5.length);
   document.getElementById("quote5").innerHTML = quotes5[randomIndex];
   document.getElementById("quote5").classList.add("show");
+  document.getElementById("quote-desktop").innerHTML = quotes5[randomIndex];
+  document.getElementById("quote-desktop").classList.add("show");
+}
+
+function displayQuote6() {
+  hideAllQuotes();
+  const randomIndex = Math.floor(Math.random() * quotes6.length);
+  document.getElementById("quote6").innerHTML = quotes6[randomIndex];
+  document.getElementById("quote6").classList.add("show");
 }
 
 function hideAllQuotes() {
