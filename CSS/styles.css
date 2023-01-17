@@ -358,4 +358,18 @@ footer h2 {
     display: none;
   }
 
+  .quote22 {
+    font-size: 20px;
+    padding-top:100px;
+  }
+  
+  .box {
+    width: 600px;
+    height: 300px;
+    background-color: #F5F5F5;
+    border: 1px solid #CCC;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+  }
 }
