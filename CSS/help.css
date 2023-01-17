@@ -293,10 +293,11 @@ mark {
 .tips {
   background-color: none;
   margin-right: 0px;
-  margin-left: 0px;
+  margin-left: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-content: center;
 }
 
 /* Styling the accordion panel to be hidden by default */
@@ -306,6 +307,20 @@ mark {
   display: none;
   overflow: hidden;
 }
+
+
+
+@media screen and (min-width: 900px) {
+  .tips-buttons{
+    padding-top: 10px;
+    display: flex;
+      width: 90%;
+      justify-content: space-evenly;
+    
+  }
+}
+
+
 
 /*FOOTER STYLES*/
 
