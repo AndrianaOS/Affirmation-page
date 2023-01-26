@@ -46,7 +46,7 @@ const quotes4 = [
   `"Be resilient in the face of any challenge."`,
   `"You are STRONG. You can OVERCOME any obstacle in your life."`,
   `"The littlest move is better than no move. Keep moving. You will get there!"`,
-  `"Rememebr that great work is done only by people who are not afraid to be great"`,
+  `"Remember that great work is done only by people who are not afraid to be great"`,
   `"Crying is not a sign of weakness"`,
   `"Never suffer in silence. Reach out to someone."`,
 ];
@@ -93,7 +93,6 @@ function displayQuote2() {
   document.getElementById("quote2").classList.add("show");
   document.getElementById("quote-desktop").innerHTML = quotes2[randomIndex];
   document.getElementById("quote-desktop").classList.add("show");
-  // document.getElementById("quote2").classList.remove("show");
 }
 
 function displayQuote3() {

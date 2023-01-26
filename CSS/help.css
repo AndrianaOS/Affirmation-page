@@ -16,6 +16,7 @@ font-family: 'Quicksand', sans-serif; */
   margin: 1em 0.5em 1.5em 0.5em;
   display: flex;
   justify-content: space-between;
+  font-family: "Kaushan Script", cursive;
 }
 
 .titlelogo {
@@ -150,33 +151,32 @@ main {
   position: relative;
   top: 4.5em;
 }
-#help-paragraf{
+#help-paragraf {
   text-align: center;
 }
 
-#rules p{
+#rules p {
   display: flex;
   justify-content: center;
 }
 
-.help-forums{
+.help-forums {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
-.help-forums img{
+.help-forums img {
   width: 65px;
   height: 65px;
   border-radius: 50px;
 }
-.tips p{
+.tips p {
   display: flex;
   justify-content: center;
   margin-right: 5rems;
 }
 
-.accordion{
+.accordion {
   background-color: #0ccf87;
   color: rgb(17, 17, 17);
   padding: 20px;
@@ -191,7 +191,7 @@ main {
   margin-top: 40px;
 }
 
-.accordion-A{
+.accordion-A {
   background-color: #0ccf87;
   color: rgb(17, 17, 17);
   padding: 20px;
@@ -213,7 +213,7 @@ main {
   background-color: #0ccf87;
 }
 
-#accordion-B{
+#accordion-B {
   background-color: #e910a8;
   color: rgb(17, 17, 17);
   padding: 20px;
@@ -228,12 +228,12 @@ main {
   margin-top: 40px;
 }
 /*clock img styling*/
-#accordion-B img{
+#accordion-B img {
   height: 100px;
   width: 100px;
 }
 
-#accordion-C{
+#accordion-C {
   background-color: #08b1ea;
   color: rgb(17, 17, 17);
   padding: 20px;
@@ -254,8 +254,8 @@ main {
   width: 100px;
   border-radius: 50%;
 }
-#two{
-background-color: #aae1f5;
+#two {
+  background-color: #aae1f5;
 }
 mark {
   background-color: #ebdf90;
@@ -308,19 +308,14 @@ mark {
   overflow: hidden;
 }
 
-
-
 @media screen and (min-width: 900px) {
-  .tips-buttons{
+  .tips-buttons {
     padding-top: 10px;
     display: flex;
-      width: 90%;
-      justify-content: space-evenly;
-    
+    width: 90%;
+    justify-content: space-evenly;
   }
 }
-
-
 
 /*FOOTER STYLES*/
 
