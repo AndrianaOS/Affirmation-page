@@ -378,5 +378,10 @@ footer h2 {
 
   main h3 {
     font-size: 2em;
+    margin-bottom: 2em;
+  }
+
+  main {
+    top: -1.5em;
   }
 }
