@@ -167,7 +167,7 @@ main {
   display: flex;
   justify-content: center;
   margin-right: 5rems;
-  font-family: "Kaushan Script", cursive;
+  /* font-family: "Kaushan Script", cursive; */
 }
 
 .accordion {
