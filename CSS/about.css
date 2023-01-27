@@ -188,6 +188,10 @@ main {
   .info-section p {
     margin-top: 0;
   }
+
+  main {
+    top: -1.5em;
+  }
 }
 
 /*FOOTER STYLES*/
