@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/styles.css" />
+
+    <script
+      src="https://kit.fontawesome.com/d81457d759.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&family=Kalam&family=Kaushan+Script&family=Lobster+Two&family=Oleo+Script&family=Permanent+Marker&family=Quicksand:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>Affirmation Page</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <aside class="titlelogo">
+          <span><img src="../IMAGE/Soulful.png" alt="" /></span>
+          <h1 class="title">Soulful Truths</h1>
+        </aside>
+        <section class="nav-links">
+          <input id="check" type="checkbox" />
+          <label for="check" id="checkID">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+          <ul class="nav-items">
+            <li>
+              <a href="index.html">HOME</a>
+            </li>
+            <li>
+              <a href="help.html">HELP PAGE</a>
+            </li>
+            <li>
+              <a href="about.html">ABOUT US</a>
+            </li>
+          </ul>
+        </section>
+      </nav>
+    </header>
+
+    <main>
+      <h3>How Do You Feel Today...?</h3>
+
+      <section class="emotion-buttons">
+        <button onclick="displayQuote3()" class="round-button" id="scared">
+          <!-- <span class="emotion-word">SCARED</span> -->
+          <picture>
+            <source
+              srcset="
+                https://fonts.gstatic.com/s/e/notoemoji/latest/1f623/512.webp
+              "
+              type="image/webp"
+            />
+            <img
+              src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f623/512.gif"
+              alt="😣"
+              class="emoji"
+              width="34"
+              height="34"
+            />
+          </picture>
+          <span class="emotion-word">SCARED</span>
+        </button>
+        <p id="quote3" class="quote"></p>
+
+        <button onclick="displayQuote2()" class="round-button" id="uninspired">
+          <!-- <span class="emotion-word">UNINSPIRED</span> -->
+          <picture>
+            <source
+              srcset="
+                https://fonts.gstatic.com/s/e/notoemoji/latest/1f62c/512.webp
+              "
+              type="image/webp"
+            />
+            <img
+              src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f62c/512.gif"
+              alt="😬"
+              class="emoji"
+              width="34"
+              height="34"
+            />
+          </picture>
+          <span class="emotion-word">UNINSPIRED</span>
+        </button>
+        <p id="quote2" class="quote"></p>
+
+        <button onclick="displayQuote()" class="round-button" id="inspired">
+          <!-- <span class="emotion-word">INSPIRED</span> -->
+          <picture>
+            <source
+              srcset="
+                https://fonts.gstatic.com/s/e/notoemoji/latest/1f929/512.webp
+              "
+              type="image/webp"
+            />
+            <img
+              src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f929/512.gif"
+              alt="🤩"
+              class="emoji"
+              width="34"
+              height="34"
+            />
+          </picture>
+          <span class="emotion-word">INSPIRED</span>
+        </button>
+        <p id="quote1" class="quote"></p>
+
+        <button onclick="displayQuote5()" class="round-button" id="happy">
+          <!-- <span class="emotion-word">HAPPY</span> -->
+          <picture>
+            <source
+              srcset="
+                https://fonts.gstatic.com/s/e/notoemoji/latest/1f600/512.webp
+              "
+              type="image/webp"
+            />
+            <img
+              src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f600/512.gif"
+              alt="😀"
+              class="emoji"
+              width="34"
+              height="34"
+            />
+          </picture>
+          <span class="emotion-word">HAPPY</span>
+        </button>
+        <p id="quote5" class="quote"></p>
+
+        <button onclick="displayQuote4()" class="round-button" id="sad">
+          <!-- <span class="emotion-word">SAD</span> -->
+          <picture>
+            <source
+              srcset="
+                https://fonts.gstatic.com/s/e/notoemoji/latest/1f61e/512.webp
+              "
+              type="image/webp"
+            />
+            <img
+              src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f61e/512.gif"
+              alt="😞"
+              class="emoji"
+              width="34"
+              height="34"
+            />
+          </picture>
+          <span class="emotion-word">SAD</span>
+        </button>
+        <p id="quote4" class="quote"></p>
+
+        <button onclick="displayQuote6()" class="round-button" id="tired">
+          <picture>
+            <source
+              srcset="
+                https://fonts.gstatic.com/s/e/notoemoji/latest/1f625/512.webp
+              "
+              type="image/webp"
+            />
+            <img
+              src="https://fonts.gstatic.com/s/e/notoemoji/latest/1f625/512.gif"
+              alt="😥"
+              class="emoji"
+              width="34"
+              height="34"
+            />
+          </picture>
+          <br />
+          <span class="emotion-word">TIRED</span>
+        </button>
+        <p id="quote6" class="quote"></p>
+      </section>
+      <section class="desktop">
+        <div class="box">
+          <p id="quote-desktop" class="quote22"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <h2>Contact</h2>
+
+      <div class="footer-info">
+        <aside class="contact-icon">
+          <span><i class="fa-regular fa-envelope"></i>Email</span>
+          <p>info@affirmations.com</p>
+        </aside>
+
+        <section class="social">
+          <ul class="name-icon">
+            <li><i class="fa-brands fa-instagram"></i></li>
+          </ul>
+          <ul class="name-icon">
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+          </ul>
+          <ul class="name-icon">
+            <li><i class="fa-brands fa-twitter"></i></li>
+          </ul>
+        </section>
+      </div>
+      <p id="copyright">&copy; STAffirmations, Inc.</p>
+    </footer>
+
+    <script src="../JS/script.js"></script>
+  </body>
+</html>
