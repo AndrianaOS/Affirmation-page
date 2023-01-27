@@ -3,13 +3,6 @@ body {
   margin: 1em;
   color: #161b40;
   background-color: #fbfaf9;
-  /* font-family: 'Caveat', cursive;
-font-family: 'Kalam', cursive;
-font-family: 'Kaushan Script', cursive;
-font-family: 'Lobster Two', cursive;
-font-family: 'Oleo Script', cursive;
-font-family: 'Permanent Marker', cursive;
-font-family: 'Quicksand', sans-serif; */
 }
 
 .navbar {
@@ -31,13 +24,6 @@ span img {
 }
 .title {
   margin-left: 0.5em;
-  /* font-family: "Caveat", cursive; */
-  /* font-family: "Kalam", cursive; */
-  /* font-family: "Kaushan Script", cursive; */
-  /* font-family: "Lobster Two", cursive; */
-  /* font-family: "Oleo Script", cursive; */
-  /* font-family: "Permanent Marker", cursive; */
-  /* font-family: "Quicksand", sans-serif; */
 }
 .icon {
   display: flex;
@@ -153,6 +139,8 @@ main {
 }
 #help-paragraf {
   text-align: center;
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.3em;
 }
 
 #rules p {
@@ -170,10 +158,16 @@ main {
   height: 65px;
   border-radius: 50px;
 }
+
+.tips h4 {
+  font-family: "Kaushan Script", cursive;
+}
+
 .tips p {
   display: flex;
   justify-content: center;
   margin-right: 5rems;
+  font-family: "Kaushan Script", cursive;
 }
 
 .accordion {
@@ -189,6 +183,7 @@ main {
   margin-left: 10px;
   margin-bottom: 60px;
   margin-top: 40px;
+  font-family: "Kaushan Script", cursive;
 }
 
 .accordion-A {
@@ -283,6 +278,10 @@ mark {
   border-radius: 50%;
 }
 
+#accordion-D h4 {
+  margin-top: 0;
+}
+
 .forums {
   background-color: rgb(99, 163, 237);
   border-radius: 100px;
@@ -370,7 +369,6 @@ footer h2 {
   border: 2px solid #41b853;
   border-radius: 50%;
   padding: 0.3em;
-  /* background-color: #41b853; */
 }
 
 @media screen and (min-width: 900px) {
@@ -403,5 +401,9 @@ footer h2 {
 
   .name-icon .fa-brands {
     margin-right: 0.3em;
+  }
+
+  main {
+    top: -1.5em;
   }
 }

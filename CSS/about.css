@@ -3,14 +3,6 @@ body {
   margin: 1em;
   color: #161b40;
   background-color: #fbfaf9;
-
-  /* font-family: 'Caveat', cursive;
-font-family: 'Kalam', cursive;
-font-family: 'Kaushan Script', cursive;
-font-family: 'Lobster Two', cursive;
-font-family: 'Oleo Script', cursive;
-font-family: 'Permanent Marker', cursive;
-font-family: 'Quicksand', sans-serif; */
 }
 
 .navbar {
@@ -32,13 +24,6 @@ span img {
 }
 .title {
   margin-left: 0.5em;
-  /* font-family: "Caveat", cursive; */
-  /* font-family: "Kalam", cursive; */
-  /* font-family: "Kaushan Script", cursive; */
-  /* font-family: "Lobster Two", cursive; */
-  /* font-family: "Oleo Script", cursive; */
-  /* font-family: "Permanent Marker", cursive; */
-  /* font-family: "Quicksand", sans-serif; */
 }
 .icon {
   display: flex;
@@ -155,19 +140,8 @@ main {
 
 .about-title {
   text-align: center;
-  /* font-family: "Caveat", cursive; */
-  /* font-family: "Kalam", cursive; */
   font-family: "Kaushan Script", cursive;
-  /* font-family: "Lobster Two", cursive; */
-  /* font-family: "Oleo Script", cursive; */
-  /* font-family: "Permanent Marker", cursive; */
-  /* font-family: "Quicksand", sans-serif; */
 }
-
-/* .emoji {
-  width: 50px;
-  height: 50px;
-  /* margin-top: 0.5em; */
 
 .info-section {
   border: 5px solid #43bee5;
@@ -209,6 +183,10 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  .info-section p {
+    margin-top: 0;
   }
 }
 
