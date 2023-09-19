@@ -14,11 +14,11 @@ This is an affirmation website. It is written using HTML, CSS and Javascript. Th
 https://soulful-truths.netlify.app/
 
 ## 💻 Screenshot
-![image](https://drive.google.com/uc?export=view&id=1tyCcdH7DL47tCdFTy9RfXMWjO4XWOYF4)
+<img src="https://drive.google.com/uc?export=view&id=1tyCcdH7DL47tCdFTy9RfXMWjO4XWOYF4" alt="Image of deployed website" />
 
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome.
 
--Contributions from Gayle and Abdulmajid
+-Contributions from <a href="https://github.com/Gayle-Thompson-Igwebike">Gayle</a> and <a href="https://github.com/Abdulmajidram">Abdulmajid</a>
